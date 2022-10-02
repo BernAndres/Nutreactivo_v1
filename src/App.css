@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.psty{
+  font-size: 18px;
+  text-align: justify;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* NAVBAR */
+.navbarsty{
+  background-color: none;
+  z-index: 2;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.navtextsty{
+  color: #01FFA5;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.navtextsty:hover{
+  color: #4E07E3;
+  transition: 0.3s;
+}
+@media only screen and (max-width: 992px){
+  .navbarsty{
+    background-color: #4E07E3;
+  }
+  .navtextsty{
+    color: #4E07E3;
+    text-align: center;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* CAROUSEL */
+.carouselImgSty{
+  width: 100%;
+  height: 100vh;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media only screen and (max-width: 992px){
+  .carouselImgSty{
+    width: auto;
+    /* height: 100%;  */
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* CUERPO */
+
+.btnsty{
+  width: 50%;
+}
+.imgsty{
+  width: 75%;
+}
+.textJustify{
+  text-align: justify;
+}
+@media only screen and (max-width: 992px){
+  .btnsty{
+    width: 50%
+  }
+  .imgsty{
+    width: 75%;
+  }
+}
+@media only screen and (max-width: 600px){
+  .btnsty{
+    width: 100%
+  }
+  .imgsty{
+    width: 100%;
+  }
+}
+
+/* ASESORIAS */
+
+.boxsty{
+  height: auto;
+}
+@media only screen and (min-width: 992px){
+  .boxsty{
+    height: 100%;
   }
 }
