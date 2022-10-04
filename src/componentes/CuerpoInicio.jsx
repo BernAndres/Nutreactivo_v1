@@ -17,6 +17,8 @@ import Img1 from '../imgs/img_comida_1.jpg'
 import Img2 from '../imgs/img_notebook.jpg'
 import Img3 from '../imgs/img_medicion_2.png'
 
+import { NavLink } from "react-router-dom";
+
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';
@@ -45,7 +47,7 @@ function CuerpoInicio(){
                             Evaluaciones en Santiago y Valparaíso.
                             </p>
                             <button className='fw-bold bg-secondary border-0 rounded-5 px-5 py-2 text-primary btnsty'>
-                                <a href="/Asesorias">Ver más</a>
+                                <NavLink to="/Asesorias">Ver más</NavLink>
                             </button>
                         </div>
                     </div>
@@ -77,7 +79,7 @@ function CuerpoInicio(){
                             expertos en atención y evaluación online.
                             </p>
                             <button className='fw-bold bg-secondary border-0 rounded-5 px-5 py-2 text-primary btnsty'>
-                                <a href="/Asesoria-nutricional-online">Ver más</a>
+                                <NavLink to="/Asesoria-nutricional-online">Ver más</NavLink>
                             </button>
                         </div>
                     </div>
@@ -99,10 +101,10 @@ function CuerpoInicio(){
                         <div className='h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-start'>
                             <p style={{textAlign: 'justify'}} className='psty'>
                             Mide tus parámetros antropométricos con nutricionistas especialistas en antropometría. Obtén
-                            todos tus parámetros por medio del Software nutricional <a target="_blank" href="https://www.5componentes.com/">5componentes</a>.
+                            todos tus parámetros por medio del Software nutricional <a target="_blank" rel='external' to="https://www.5componentes.com/">5componentes</a>.
                             </p>
                             <button className='fw-bold bg-secondary border-0 rounded-5 px-5 py-2 text-primary btnsty'>
-                                <a href="/Evaluacion-fisica">Ver más</a>
+                                <NavLink to="/Evaluacion-fisica">Ver más</NavLink>
                             </button>
                         </div>
                     </div>

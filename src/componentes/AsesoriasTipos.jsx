@@ -4,6 +4,7 @@ import Manzana from '../imgs/img_manzana.png'
 import Deporte from '../imgs/img_deporte_2.png'
 import Online from '../imgs/img_online.png'
 import EvFisica from '../imgs/img_cuerpo.png'
+import { NavLink } from "react-router-dom";
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -27,7 +28,7 @@ function AsesoriasTipos(){
                             Asesoría nutricional dirigida a deportistas y personas físicamente activas que busquen
                             mejorar su rendimiento, composición corporal y salud.
                             </div> 
-                            <a href='/Asesoria-nutricional-deportistas' className=''>Ver más</a>
+                            <NavLink to='/Asesoria-nutricional-deportistas' className=''>Ver más</NavLink>
                         </div> 
                     {/* Cuadro 2 */}
                         <div data-aos="fade-up" className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary align-content-start boxsty'>
@@ -37,7 +38,7 @@ function AsesoriasTipos(){
                             Asesoría nutricional dirigida para el control de peso, mejora de la composición 
                             corporal y manejo de enfermedades de índole nutricional.
                             </div> 
-                            <a href='/Asesoria-nutricional' className=''>Ver más</a>
+                            <NavLink to='/Asesoria-nutricional' className=''>Ver más</NavLink>
                         </div> 
                     </div>
                     <div className='d-flex flex-column flex-lg-row align-items-center justify-content-lg-evenly'>
@@ -49,7 +50,7 @@ function AsesoriasTipos(){
                             Asesoría nutricional dirigida para personas físicamente activas, control de peso y condiciones
                              de salud de índole nutricional.
                             </div> 
-                            <a href='/Asesoria-nutricional-online' className=''>Ver más</a>
+                            <NavLink to='/Asesoria-nutricional-online' className=''>Ver más</NavLink>
                         </div> 
                     {/* Cuadro 4 */}
                         <div data-aos="fade-up" className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary align-content-start boxsty'>
@@ -59,7 +60,7 @@ function AsesoriasTipos(){
                                 Evaluación antropométrica para deportistas, medición de parámetros físicos
                                 según estándares ISAK 1.
                             </div> 
-                            <a href='/Evaluacion-fisica' className=''>Ver más</a>
+                            <NavLink to='/Evaluacion-fisica' className=''>Ver más</NavLink>
                         </div> 
                     </div>
                 </div>

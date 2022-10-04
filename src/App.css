@@ -17,6 +17,23 @@
   color: #4E07E3;
   transition: 0.3s;
 }
+.btnmenusty{
+  padding: 0px 40px;
+}
+.menusty{
+  opacity: 0.9;
+}
+.pmenusty{
+  margin-bottom: 0px;
+  /* background-color: #01FFA5; */
+  font-size: 18px;
+}
+/* .menuitemsty{
+
+} */
+.styprueba{
+  border: none;
+}
 @media only screen and (max-width: 992px){
   .navbarsty{
     background-color: #4E07E3;
@@ -24,6 +41,9 @@
   .navtextsty{
     color: #4E07E3;
     text-align: center;
+  }
+  .menuitemsty{
+    border: 2px solid #dfe4ea
   }
 }
 
@@ -75,5 +95,27 @@
 @media only screen and (min-width: 992px){
   .boxsty{
     height: 100%;
+  }
+}
+
+.imgMedSty{
+    box-shadow: 0px 0px 8px #888888;
+    transition: 0.5s;
+}
+.imgMedSty:hover{
+    box-shadow: 0px 0px 15px black;
+    opacity: 0.8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.msjBoxSty{
+  width: 75%;
+  font-size: 18px;
+  text-align: justify;
+}
+@media only screen and (max-width: 992px){
+  .msjBoxSty{
+    width: 100%;
   }
 }
