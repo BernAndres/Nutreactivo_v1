@@ -1,6 +1,6 @@
 import '../App.css';
 import NutriAlvaro from '../imgs/img_nutricionista_alvaro_1.png'
-import NutriDiego from '../imgs/img_nutricionista_diego_1.png'
+import NutriDiego from '../imgs/img_nutricionista_diego.png'
 import IsapreColmena from '../imgs/img_isapre_colmena.png'
 import IsapreBanmedica from '../imgs/img_isapre_banmedica.png'
 import IsapreConsalud from '../imgs/img_isapre_consalud.png'

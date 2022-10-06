@@ -6,6 +6,7 @@ import AsesoriaOnline from './Paginas/AsesoriaOnline';
 import EvFisica from './Paginas/EvFisica';
 import Nutricionistas from './Paginas/Nutricionistas';
 import SobreNosotros from './Paginas/SobreNosotros';
+import InstPDF from './Paginas/InstructivoPDF';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
           <Route path='/Evaluacion-fisica' element={<EvFisica/>}/>
           <Route path='/Nutricionistas' element={<Nutricionistas/>}/>
           <Route path='/Sobre-nosotros' element={<SobreNosotros/>}/>
+          <Route path='/Instructivo-mediciones' element={<InstPDF/>}/>
+        
         </Routes>
       </div>
     </BrowserRouter>

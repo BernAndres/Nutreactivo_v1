@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from '../componentes/Navbar';
 import Footer from '../componentes/Footer';
+import { NavLink } from 'react-router-dom';
 
 import Img1 from '../imgs/img_notebook.jpg'
 import Img2 from '../imgs/img_imc_2.png';
@@ -87,7 +88,7 @@ function AsesoriaOnline() {
                             <p className='psty'>
                             La evaluación física puede ser realizada por el paciente o alguien que lo asista, el cual deberá tomar 
                             los indicadores de peso, talla y circunferencia de cintura. Para realizar las mediciones de forma correcta,
-                            debe descargar la siguiente “guía de medición para el paciente” donde se explica el paso a paso para
+                            debe descargar el siguiente <NavLink to='/Instructivo-mediciones' target='_blank' rel='help'>instructuvo de mediciones</NavLink> donde se explica el paso a paso para
                             realizar cada medición adecuadamente. En caso de tener dudas siempre puede consultar a su nutricionista
                             la forma adecuada para realizar esta medicion.
                             </p>

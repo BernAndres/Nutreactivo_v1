@@ -29,9 +29,6 @@ function AsesoriasTipos(){
                             mejorar su rendimiento, composición corporal y salud.
                             </div> 
                             <NavLink to='/Asesoria-nutricional-deportistas' className=''>Ver más</NavLink>
-                            <div className='d-flex justify-content-end'>
-                                <span className='valorsty'>25.000 clp</span>
-                            </div>
                         </div> 
                     {/* Cuadro 2 */}
                         <div data-aos="fade-up" className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary align-content-start boxsty'>
@@ -42,9 +39,6 @@ function AsesoriasTipos(){
                             corporal y manejo de enfermedades de índole nutricional.
                             </div> 
                             <NavLink to='/Asesoria-nutricional' className=''>Ver más</NavLink>
-                            <div className='d-flex justify-content-end'>
-                                <span className='valorsty'>25.000 clp</span>
-                            </div>
                         </div> 
                     </div>
                     <div className='d-flex flex-column flex-lg-row align-items-center justify-content-lg-evenly'>
@@ -57,9 +51,6 @@ function AsesoriasTipos(){
                              de salud de índole nutricional.
                             </div> 
                             <NavLink to='/Asesoria-nutricional-online' className=''>Ver más</NavLink>
-                            <div className='d-flex justify-content-end'>
-                                <span className='valorsty'>18.000 clp</span>
-                            </div>
                         </div> 
                     {/* Cuadro 4 */}
                         <div data-aos="fade-up" className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary align-content-start boxsty'>
@@ -70,9 +61,6 @@ function AsesoriasTipos(){
                                 según estándares ISAK 1.
                             </div> 
                             <NavLink to='/Evaluacion-fisica' className=''>Ver más</NavLink>
-                            <div className='d-flex justify-content-end'>
-                                <span className='valorsty'>18.000 clp</span>
-                            </div>
                         </div> 
                     </div>
                 </div>

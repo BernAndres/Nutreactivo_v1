@@ -2,7 +2,7 @@ import React from 'react';
 import Navbar from '../componentes/Navbar';
 import Footer from '../componentes/Footer';
 import NutriAlvaro from '../imgs/img_nutricionista_alvaro_1.png'
-import NutriDiego from '../imgs/img_nutricionista_diego_1.png'
+import NutriDiego from '../imgs/img_nutricionista_diego.png'
 import Naranja from '../imgs/img_naranja.png'
 import Pera from '../imgs/img_pera.png'
 
