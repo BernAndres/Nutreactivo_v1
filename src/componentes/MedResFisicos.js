@@ -33,11 +33,10 @@ function MedResFisicos(){
                     <div className='col-12 col-lg-6'>
                         <h4 className='fw-bold h2 text-tertiary'>Medición física</h4>
                         <p className='psty'>
-                            Durante la evaluación física, el nutricionista tomará diversas mediciones corporales al paciente,
-                            como peso, estatura, pliegues y perímetros corporales. Estas mediciones servirán para obtener
-                            indicadores de relevancia respecto al rendimiento deportivo del atleta, como composición corporal,
-                            somatocarta, estratagema phantom, distribución de la masa muscular y otros indicadores de interés
-                            deportivo.
+                            Durante la evaluación física, el nutricionista tomará diversas mediciones corporales al usuario,
+                            como peso, estatura, pliegues y perímetros corporales, acorde a los estándares ISAK 1. 
+                            Estas mediciones servirán para obtener
+                            indicadores de relevancia respecto a la salud del usuario y el rendimiento deportivo del atleta.
                         </p>
                     </div>
                     <div className='col-12 col-lg-6'>
@@ -72,7 +71,7 @@ function MedResFisicos(){
                         <h4 className='fw-bold h2 text-tertiary'>Resultados mediciones</h4>
                         <p className='psty'>
                             Las mediciones antropométricas nos entregan como resultado una gran variedad de indicadores físicos y de 
-                            salud, como lo son los componentes corporales como masa muscular, grasa, ósea y residual. También otros  
+                            salud, como lo son los componentes corporales como masa muscular, grasa, ósea y residual, además de otros  
                             indicadores de interés para el deportista como la somatocarta, estratagema phantom, perfil de pliegues cutáneos, 
                             perfil de perímetros corporales, índice de masa corporal e indicadores corporales como índice músculo
                             óseo, índice masa grasa, índice masa muscular, índice cintura cadera, entre otros indicadores 

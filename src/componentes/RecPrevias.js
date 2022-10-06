@@ -18,13 +18,13 @@ function RecPrevias(){
                         <h4 className='fw-bold h2 text-tertiary'>Recomendaciones previas a la medición</h4>
                         
                            <ul className='psty'>
-                                <li>Considera que se te realizarán diversas mediciones corporales, por lo que es
+                                <li>Se debe considerar que se realizarán diversas mediciones corporales, por lo que es
                                  recomendado asistir con ropa cómoda, que permita tomar mediciones al rededor del
-                                  cuerpo. Una buena opción puede ser ropa deportiva.</li>
-                                <li>En las 4 horas previas a la medición, evita realizar comidas o ingerir
+                                  cuerpo. Una buena opción puede ser ropa deportiva o traje de baño.</li>
+                                <li>En las 4 horas previas a la medición, evitar realizar comidas o ingerir
                                  líquidos como agua, café o té.</li>
-                                 <li>En las 24 horas previas, evita el consumo de bebidas alcohólicas.</li>
-                                 <li>Evita realizar ejercicio físico que implique sudoración 12 horas antes de la evaluación.</li>
+                                 <li>En las 24 horas previas, evitar el consumo de bebidas alcohólicas.</li>
+                                 <li>Evitar realizar ejercicio físico que implique sudoración 12 horas antes de la evaluación.</li>
                            </ul>
                     </div>
                 </div>

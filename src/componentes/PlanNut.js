@@ -20,9 +20,9 @@ function PlanNut(){
                             El proceso de intervención nutricional es un proceso terapéutico donde nutricionista 
                             y paciente trabajan en conjunto por la mejora del estado de salud y/o control de condiciones
                             de salud de índole nutricional. Para lograr este objetivo, el paciente cuenta con
-                            el apoyo de su nutricionista para realizar preguntas y resolver dudas, además, su nutricionista 
+                            el apoyo de su nutricionista para consultar y resolver inquietudes. Además, su nutricionista 
                             le proporcionará su plan nutricional en formato pdf, el cual incluye la prescripción del
-                            tratamiento realizado, una pauta de alimentación con diversos ejemplos de comidas, tareas 
+                            tratamiento realizado, pauta de alimentación con diversos ejemplos de comidas, tareas 
                             por realizar y material de apoyo para el paciente.
                         </p>
                     </div>

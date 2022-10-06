@@ -19,9 +19,12 @@ function Entrevista(){
                         <div className='col-12 col-lg-6'>
                             <h4 className='fw-bold h2 text-tertiary'>Entrevista</h4>
                             <p className='psty'>
-                            Durante la consulta, se realiza una breve entrevista al paciente con el fin de conocer
-                            sus hábitos alimenticios, antecedentes clínicos de salud, estilo de vida, entre otros.
-                            Es una instancia ideal para que el paciente de a conocer sus intereses, objetivos e inquietudes.
+                            Durante la consulta, se realizará una entrevista al usuario con el fin de conocer
+                            sus antecedentes clínicos de salud, estilo de vida, y hábitos alimenticios. 
+                            Durante esta instancia, el usuario puede dar a conocer abiertamente sus hábitos alimenticios
+                            y relación con la comida, sin temor a ser juzgado, puesto que el ojetivo de
+                            esta instancia es crear una alianza entre usuario y nutricionista basada en la confianza
+                            y transparencia, con el fin de abordar adecuadamente sus objetivos. 
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end'>

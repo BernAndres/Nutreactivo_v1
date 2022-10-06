@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../componentes/Navbar';
 import RecPrevias from '../componentes/RecPrevias';
 import MedResFisicos from '../componentes/MedResFisicos';
+import Valores from '../componentes/Valores3';
 import Footer from '../componentes/Footer';
 
 import Aos from "aos";
@@ -33,6 +34,7 @@ function EvFisica() {
             </div>
             <RecPrevias/>
             <MedResFisicos/>
+            <Valores/>
             <div style={{height: '100px'}}/>
             <Footer/>
 

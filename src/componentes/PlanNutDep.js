@@ -17,14 +17,14 @@ function PlanNutDep(){
                     <div className='row'>
                         <h4 className='fw-bold h2 text-tertiary'>Intervención nutricional</h4>
                         <p className='psty'>
-                        El proceso de intervención nutricional es un proceso donde nutricionista y atleta 
-                            trabajan en conjunto por la mejora del estado de salud y rendimiento del deportista.
+                            El proceso de intervención nutricional es un proceso donde nutricionista y atleta 
+                            trabajan en conjunto por la mejora del rendimiento, composición y salud del deportista.
                             Para lograr este objetivo, el paciente cuenta con el apoyo de su nutricionista para 
-                            realizar preguntas y resolver dudas, además, su nutricionista le proporcionará su plan
+                            consultar y resolver inquietudes. Además, su nutricionista proporcionará su plan
                             nutricional de alimentación en formato pdf, el cual incluye la prescripción de la dieta,
-                            plan nutricional adaptado a las distintas exigencias de cada día, planificación de timing 
-                            nutricional para suplir las exigencias del entrenamiento y recuperación, 
-                            además de otras estrategias de índole nutricional según sea la exigencia del atleta.
+                            pauta nutricional adaptada a las distintas exigencias de la semana, planificación de timing 
+                            nutricional, 
+                            entre otras estrategias de índole nutricional según las necesidades del atleta.
                         </p>
                     </div>
                 </div>

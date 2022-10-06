@@ -5,6 +5,7 @@ import RecPrevias from '../componentes/RecPrevias';
 import Entrevista from '../componentes/Entrevista';
 import MedResFisicos from '../componentes/MedResFisicos';
 import PlanNutDep from '../componentes/PlanNutDep';
+import Valores from '../componentes/Valores1';
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -37,6 +38,7 @@ function AsesoriaDep() {
             <Entrevista/>
             <MedResFisicos/>
             <PlanNutDep/>
+            <Valores/>
             <div style={{height: '100px'}}/>
             <Footer/>
         </>

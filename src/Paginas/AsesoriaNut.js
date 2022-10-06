@@ -4,6 +4,7 @@ import RecPrevias from '../componentes/RecPrevias';
 import Entrevista from '../componentes/Entrevista';
 import MedResFisicos from '../componentes/MedResFisicos';
 import PlanNut from '../componentes/PlanNut';
+import Valores from '../componentes/Valores1';
 import Footer from '../componentes/Footer';
 
 import Aos from "aos";
@@ -27,8 +28,7 @@ function AsesoriaNut() {
                         <p className='psty'>
                         A continuación encontrarás en detalle que esperar en tu consulta nutricional, 
                         la cual está dirigida para personas que deseen controlar su peso, mejorar su 
-                        composición corporal y/o controlar enfermedades de índole nutricional como resistencia
-                        a la insulina, diabetes, hipertensión, dislipidemia, hipo/hipertiroidismo, entre otros. 
+                        composición corporal y/o controlar enfermedades de índole nutricional.
                         </p>
                     </div>
                 </div>
@@ -38,6 +38,7 @@ function AsesoriaNut() {
             <Entrevista/>
             <MedResFisicos/>
             <PlanNut/>
+            <Valores/>
             <div style={{height: '100px'}}/>
             <Footer/>
         </>

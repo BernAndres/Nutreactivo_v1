@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../componentes/Navbar';
+import Valores from '../componentes/Valores2';
 import Footer from '../componentes/Footer';
 import { NavLink } from 'react-router-dom';
+
 
 import Img1 from '../imgs/img_notebook.jpg'
 import Img2 from '../imgs/img_imc_2.png';
@@ -30,8 +32,7 @@ function AsesoriaOnline() {
                         <p className='psty'>
                         A continuación encontrarás en detalle que esperar en tu consulta nutricional online, 
                         la cual está dirigida a personas físicamente activas, individuos que busquen controlar 
-                        su peso corporal o manejar condiciones de salud de índole nutricional, como resistencia 
-                        a la insulina, diabetes, hipertensión, dislipidemia, entre otros.
+                        su peso corporal o manejar condiciones de salud de índole nutricional.
                         </p>
                     </div>
                 </div>
@@ -45,11 +46,11 @@ function AsesoriaOnline() {
                     <div className='row'>
                         <h4 className='fw-bold h2 text-tertiary'>Recomendaciones previas a la consulta</h4>
                            <ul className='psty'>
-                                <li>Contar con un computador con camara web o teléfono.</li>
-                                <li>Asegurate de tener una buena conexión a internet.</li>
+                                <li>Contar con un computador con camara web o celular.</li>
+                                <li>Asegurar el tener una buena conexión a internet.</li>
                                 <li>Descargar la aplicación Zoom mediante la cual se realizará la teleconsulta.</li>
-                                <li>Busca ambiente tranquilo para la consulta, ten en cuenta que estas 
-                                suelen durar 45 minutos en promedio.</li>
+                                <li>Se recomienda buscar un ambiente tranquilo para la consulta, ya que estas 
+                                suelen durar 30-45 minutos.</li>
                            </ul>
 
                     </div>
@@ -65,9 +66,12 @@ function AsesoriaOnline() {
                         <div className='col-12 col-lg-6'>
                             <h4 className='fw-bold h2 text-tertiary'>Entrevista</h4>
                             <p className='psty'>
-                            Durante la consulta, se realiza una breve entrevista al paciente con el fin de conocer
-                            sus hábitos alimenticios, antecedentes clínicos de salud, estilo de vida, entre otros.
-                            Es una instancia ideal para que el paciente dé a conocer sus intereses, objetivos e inquietudes.
+                            Durante la consulta, se realizará una entrevista al usuario con el fin de conocer
+                            sus antecedentes clínicos de salud, estilo de vida, y hábitos alimenticios. 
+                            Durante esta instancia, el usuario puede dar a conocer abiertamente sus hábitos alimenticios
+                            y relación con la comida, sin temor a ser juzgado, puesto que el ojetivo de
+                            esta instancia es crear una alianza entre usuario y nutricionista basada en la confianza
+                            y transparencia, con el fin de abordar adecuadamente sus objetivos. 
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end'>
@@ -89,8 +93,8 @@ function AsesoriaOnline() {
                             La evaluación física puede ser realizada por el paciente o alguien que lo asista, el cual deberá tomar 
                             los indicadores de peso, talla y circunferencia de cintura. Para realizar las mediciones de forma correcta,
                             debe descargar el siguiente <NavLink to='/Instructivo-mediciones' target='_blank' rel='help'>instructuvo de mediciones</NavLink> donde se explica el paso a paso para
-                            realizar cada medición adecuadamente. En caso de tener dudas siempre puede consultar a su nutricionista
-                            la forma adecuada para realizar esta medicion.
+                            realizar cada medición adecuadamente. En caso de tener dudas puede consultar con su nutricionista
+                            para realizar las mediciones.
                             </p>
                         </div>
                         <div className='col-12 col-lg-6'>
@@ -118,12 +122,8 @@ function AsesoriaOnline() {
                         <div className='row mb-3 d-flex justify-content-center mx-0 px-0'>
                             <h4 className='fw-bold h2 text-tertiary'>Resultados mediciones</h4>
                             <p className='psty'>
-                                Las mediciones antropométricas nos entregan como resultado una gran variedad de indicadores físicos y de 
-                                salud, como lo son los componentes corporales como masa muscular, grasa, ósea y residual. También otros  
-                                indicadores de interés para el deportista como la somatocarta, estratagema phantom, perfil de pliegues cutáneos, 
-                                perfil de perímetros corporales, índice de masa corporal e indicadores corporales como índice músculo
-                                óseo, índice masa grasa, índice masa muscular, índice cintura cadera, entre otros indicadores 
-                                físicos. 
+                                Las mediciones antropométricas nos entregan como resultado indicadores relacionados con la proporcionalidad
+                                corporal del usuario y el estado de salud de este.
                             </p>
                         </div>
                         <div className='row d-flex justify-content-around mb-lg-3 mb-lg-5 mx-0'>
@@ -156,6 +156,8 @@ function AsesoriaOnline() {
                 </div>
                 <div className='col-1'></div>
             </div>
+
+            <Valores/>
 
             <div style={{height: '100px'}}/>
             <Footer/>

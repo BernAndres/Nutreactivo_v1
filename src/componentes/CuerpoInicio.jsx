@@ -42,9 +42,9 @@ function CuerpoInicio(){
                         </h2>
                         <div className='h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-start'>
                             <p style={{textAlign: 'justify'}} className='psty'>
-                            Mejora tu rendimiento deportivo, composición corporal, o tu estado
+                            Mejora tu rendimiento deportivo, composición corporal y estado
                             de salud con nutricionistas especialistas en alimentación, deporte y actividad física. 
-                            Evaluaciones en Santiago y Valparaíso.
+                            Asesorías disponibles en Viña del Mar.
                             </p>
                             <button className='fw-bold bg-secondary border-0 rounded-5 px-5 py-2 text-primary btnsty'>
                                 <NavLink to="/Asesorias">Ver más</NavLink>
@@ -100,8 +100,8 @@ function CuerpoInicio(){
                         </h2>
                         <div className='h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-start'>
                             <p style={{textAlign: 'justify'}} className='psty'>
-                            Mide tus parámetros antropométricos con nutricionistas especialistas en antropometría. Obtén
-                            todos tus parámetros por medio del Software nutricional <a target="_blank" rel='external' to="https://www.5componentes.com/">5componentes</a>.
+                            Mide tus parámetros físicos con nutricionistas especialistas en antropometría. Obtén
+                            todos tus parámetros por medio del Software nutricional <a target="_blank" rel='external' href="https://www.5componentes.com/">5componentes</a>.
                             </p>
                             <button className='fw-bold bg-secondary border-0 rounded-5 px-5 py-2 text-primary btnsty'>
                                 <NavLink to="/Evaluacion-fisica">Ver más</NavLink>
