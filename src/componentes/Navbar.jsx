@@ -38,7 +38,7 @@ function Navbar(){
           </li>
           {/* 3 - Agendar */}
           <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
-            <NavLink className="navtextsty" to="/">Agendar</NavLink>
+            <a className="navtextsty" target='_blank' rel='external' href="https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo">Agendar</a>
           </li>
       </ul>
     </div>
