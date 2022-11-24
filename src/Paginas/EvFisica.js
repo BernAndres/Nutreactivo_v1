@@ -1,4 +1,6 @@
 import React from 'react';
+import Bar from '../componentes/Bar';
+import NavBack from '../componentes/NavBack';
 import Navbar from '../componentes/Navbar';
 import RecPrevias from '../componentes/RecPrevias';
 import MedResFisicos from '../componentes/MedResFisicos';
@@ -15,7 +17,9 @@ function EvFisica() {
       }, []);
     return(
         <> 
+            <Bar/>
             <Navbar/>
+            <NavBack/>
             <div style={{height: '150px'}}/>
             {/* INTRO */}
             <div className='row mb-5 mx-0'>

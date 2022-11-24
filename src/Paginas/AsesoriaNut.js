@@ -1,4 +1,6 @@
 import React from 'react';
+import Bar from '../componentes/Bar';
+import NavBack from '../componentes/NavBack';
 import Navbar from '../componentes/Navbar';
 import RecPrevias from '../componentes/RecPrevias';
 import Entrevista from '../componentes/Entrevista';
@@ -17,7 +19,9 @@ function AsesoriaNut() {
       }, []);
     return(
         <>
+            <Bar/>
             <Navbar/>
+            <NavBack/>
             <div style={{height: '150px'}}/>
             <div className='row mb-5 mx-0'>
                 <div className='col-1'></div>

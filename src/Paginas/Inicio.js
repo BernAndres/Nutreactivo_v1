@@ -1,16 +1,31 @@
 import React from 'react';
+import Bar from '../componentes/Bar';
+import NavBack from '../componentes/NavBack';
 import Navbar from '../componentes/Navbar';
-import Carousel from '../componentes/Carousel';
+import FrontPage from '../componentes/FrontPage';
+import Servicios from '../componentes/IniServicios';
+import IniConsulta from '../componentes/IniConsulta';
+import IniCoverturas from '../componentes/IniCoverturas';
+import IniNutris from '../componentes/IniNutris';
 import CuerpoInicio from '../componentes/CuerpoInicio';
 import Footer from '../componentes/Footer';
 
 function Inicio() {
     return(
         <>
+            <Bar/>
             <Navbar/>
-            <Carousel />
+            <NavBack/>
+            <FrontPage />
+            <div style={{height: '100px',}}/>
+            <Servicios/>
             <div style={{height: '100px'}}/>
-            <CuerpoInicio/>
+            <IniConsulta/>
+            <div style={{height: '100px'}}/>
+            <IniCoverturas/>
+            <div style={{height: '100px'}}/>
+            <IniNutris/>
+            {/* <CuerpoInicio/> */}
             <div style={{height: '100px'}}/>
             <Footer/>
         </>

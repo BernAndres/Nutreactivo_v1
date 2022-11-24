@@ -1,4 +1,6 @@
 import React from 'react';
+import Bar from '../componentes/Bar';
+import NavBack from '../componentes/NavBack';
 import Navbar from '../componentes/Navbar';
 import Footer from '../componentes/Footer';
 import RecPrevias from '../componentes/RecPrevias';
@@ -17,7 +19,9 @@ function AsesoriaDep() {
       }, []);
     return(
         <>
+           <Bar/>
             <Navbar/>
+            <NavBack/>
             <div style={{height: '150px'}}/>
             <div className='row mb-5 mx-0' data-aos="fade-up">
                 <div className='col-1'></div>

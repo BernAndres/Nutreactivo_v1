@@ -1,27 +1,70 @@
+/* GENERAL */
 .psty{
-  font-size: 18px;
+  font-size: 16px;
   text-align: justify;
 }
+.bg-quinary{
+  background-color: #CFCCE9;
+}
 
-/* NAVBAR 1 */
+/* BAR */
+.barsty{
+  z-index: 3;
+}
+
+/* NAV BACK */
+.navbacksty{
+  width: 100%;
+  height: 120px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  background-color: black;
+  opacity: 0.7;
+  z-index: 1;
+}
+@media only screen and (max-width: 992px){
+  .navbacksty{
+    height: 80px;
+  }
+}
+
+/* NAVBAR */
 .navbarsty{
   background-color: none;
-  z-index: 2;
+  z-index: 3;
+}
+.menusty{
+  
+}
+.navbtn1sty{
+  background-color: #01FFA5;
 }
 .navtextsty{
-  color: #01FFA5;
+  color: white;
   text-decoration: none;
   transition: 0.3s;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
 }
+.navtextstybtn{
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+
+}
 .navtextsty:hover{
-  color: #4E07E3;
+  color: #01FFA5;
   transition: 0.3s;
 }
 @media only screen and (max-width: 992px){
   .navbarsty{
-    background-color: #4E07E3;
+    /* background-color: #4E07E3; */
+  }
+  .navbtn1sty{
+    background-color: rgba(0,0,0,0);
   }
   .navtextsty{
     color: #dfe4ea; 
@@ -31,41 +74,44 @@
   .navtextsty:hover{
     color: #01FFA5; 
   }
+  .navtextstybtn{
+    color: white;
+  }
   .menusty{
     height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: auto;
+    position: relative;
+    /* top: 50px; */
+    /* border-radius: 15px; */
   }
   .droptextsty{
     color: white;
   }
 }
-/* NAVBAR 2*/
-.navbtnsty{
-  height: 25%;
-}
-.btnmenusty{
-  padding: 0px 40px;
-}
-.menusty{
-  opacity: 0.9;
-}
-.pmenusty{
-  margin-bottom: 0px;
-  /* background-color: #01FFA5; */
-  font-size: 18px;
-}
-.styprueba{
-  border: none;
-}
-@media only screen and (max-width: 992px){
 
-  .navtextsty{
-    /* color: #4E07E3; */
-    text-align: center;
-  }
-  .menuitemsty{
-    border: 2px solid #dfe4ea
-  }
+/* FRONT PAGE */
+.frontsty{
+  z-index: 2;
+  position: relative;
 }
+.contvideosty{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.videosty{
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;  /* esta es la clave */
+  width: 100%;
+  height: 100%;
+}
+
 
 /* CAROUSEL */
 .carouselImgSty{
@@ -76,6 +122,34 @@
   .carouselImgSty{
     width: auto;
     /* height: 100%;  */
+  }
+}
+
+/* SERVICIOS */
+.box1sty{
+  border: 3px solid #01FFA5;
+  border-radius: 15px;
+  /* position: relative; */
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+  padding: 0 0 30px 0;
+}
+.box1sty:hover{
+  box-shadow: 0px 0px 10px gray;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* INICIO CONSULTA NUTRICIONAL */
+.video2sty{
+  width: 75%;
+}
+@media only screen and (max-width: 992px){
+  .video2sty{
+    width: 100%
   }
 }
 
