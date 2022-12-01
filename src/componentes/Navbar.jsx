@@ -28,7 +28,7 @@ function Navbar(){
               Asesorías
             </span>
             <ul className="dropdown-menu mx-0 my-0 px-0 py-0">
-              <li><NavLink className="dropdown-item" to="/Asesorias">Asesorías</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/Asesorias-general">Asesorías</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Asesoria-nutricional">Asesoría nutricional</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-deportistas">Asesoría nutricional deportiva</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-online">Asesoría nutricional online</NavLink></li>
@@ -41,15 +41,15 @@ function Navbar(){
             </NavLink>
           </li>
           <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
-            <NavLink className="navtextsty" to="/Nutricionistas">
+            <NavLink className="navtextsty" to="/Blog">
               Blog
             </NavLink>
           </li>
           {/* 3 - Agendar */}
           <li className="nav-item ms-lg-5 my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center navbtn1sty rounded-5">
-            <a className="navtextstybtn" target='_blank' rel='external' href="https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo">
+            <NavLink className="navtextstybtn" to='/Agendar'>
               AGENDA AQUÍ
-            </a>
+            </NavLink>
           </li>
       </ul>
     </div>

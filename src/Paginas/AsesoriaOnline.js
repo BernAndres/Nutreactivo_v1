@@ -6,8 +6,8 @@ import Valores from '../componentes/Valores2';
 import Footer from '../componentes/Footer';
 import { NavLink } from 'react-router-dom';
 
-
-import Img1 from '../imgs/img_notebook.jpg'
+import Video from '../videos/video3.mp4';
+import Img1 from '../imgs/img_notebook.jpg';
 import Img2 from '../imgs/img_imc_2.png';
 import Img3 from '../imgs/img_medicion_6.jpg';
 import Img4 from '../imgs/img_medicion_4.jpg';
@@ -25,7 +25,7 @@ function AsesoriaOnline() {
             <Bar/>
             <Navbar/>
             <NavBack/>
-            <div style={{height: '150px'}}/>
+            <div style={{height: '250px'}}/>
 
             {/* INTRO */}
             <div className='row mb-5 mx-0 data-aos="fade-up"'>
@@ -79,7 +79,7 @@ function AsesoriaOnline() {
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end'>
-                            <img src={Img1} className='rounded imgsty' alt='Entrevista online'></img>
+                        <video src={Video} className='rounded video2sty' type='video/mp4' controls></video>
                         </div>
                     </div>
                 </div>

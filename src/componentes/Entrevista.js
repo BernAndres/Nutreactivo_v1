@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Img10 from '../imgs/img_consulta_1.jpg';
+import Video from '../videos/video2.mp4';
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -28,7 +28,7 @@ function Entrevista(){
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center justify-content-lg-end'>
-                            <img src={Img10} className='rounded imgsty'></img>
+                            <video src={Video} className='rounded video2sty' type='video/mp4' controls></video>
                         </div>
                     </div>
                 </div>

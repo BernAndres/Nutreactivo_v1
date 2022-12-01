@@ -20,7 +20,7 @@ function EvFisica() {
             <Bar/>
             <Navbar/>
             <NavBack/>
-            <div style={{height: '150px'}}/>
+            <div style={{height: '250px'}}/>
             {/* INTRO */}
             <div className='row mb-5 mx-0'>
                 <div className='col-1'></div>

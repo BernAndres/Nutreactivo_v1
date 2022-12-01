@@ -26,8 +26,9 @@ function IniServicios(){
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
                     <div className='mb-2 mt-2'><img  src={Manzana} alt="icon" style={{height: '75px'}}></img></div>
                     <h4 className=' h2 text-tertiary text-center'>Asesoría nutricional</h4>
-                    <div className='mb-3 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
-                    Asesoría nutricional dirigida para el control de peso, mejora de la composición 
+                    <p className='h5 text-tertiary text-center mb-4'>presencial</p>
+                    <div className='mb-4 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
+                    Asesoría nutricional dirigida para el control de peso, mejora de composición 
                     corporal y manejo de enfermedades de índole nutricional.
                     </div> 
                     <NavLink to='/Asesoria-nutricional' className='text-center'>Ver más</NavLink>
@@ -36,7 +37,8 @@ function IniServicios(){
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
                     <div className='mb-2 mt-2'><img  src={Deporte} alt="icon" style={{height: '75px'}}></img></div>
                     <h4 className='h2 text-tertiary text-center'>Asesoría nutricional deportiva</h4>
-                    <div className='mb-3 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
+                    <p className='h5 text-tertiary text-center mb-4'>presencial</p>
+                    <div className='mb-4 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
                     Asesoría nutricional dirigida a deportistas y personas físicamente activas que busquen
                     mejorar su rendimiento, composición corporal y salud.
                     </div> 
@@ -45,8 +47,8 @@ function IniServicios(){
 
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
                     <div className='mb-2 mt-2'><img  src={Online} alt="icon" style={{height: '75px'}}></img></div>
-                    <h4 className=' h2 text-tertiary text-center'>Asesoría Online</h4>
-                    <div className='mb-3 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
+                    <h4 className=' h2 text-tertiary text-center mb-4'>Asesoría Online</h4>
+                    <div className='mb-4 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
                     Asesoría nutricional dirigida para personas físicamente activas, control de peso y condiciones
                     de salud de índole nutricional.
                     </div> 
@@ -56,7 +58,8 @@ function IniServicios(){
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
                     <div className='mb-2 mt-2'><img  src={EvFisica} alt="icon" style={{height: '75px'}}></img></div>
                     <h4 className=' h2 text-tertiary text-center'>Evaluación física</h4>
-                    <div className='mb-3 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
+                    <p className='h5 text-tertiary text-center mb-4'>presencial</p>
+                    <div className='mb-4 mx-3 text-tertiary' style={{textAlign: 'justify'}}>
                     Evaluación antropométrica para deportistas. Medición de parámetros físicos
                     según estándares ISAK 1.
                     </div> 

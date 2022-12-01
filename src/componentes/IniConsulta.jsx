@@ -24,8 +24,8 @@ function IniConsulta(){
                         <div className='h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-start'>
                             <p style={{textAlign: 'justify'}} className='psty'>
                             En Nutreactivo encontrarás nutricionistas especialistas en nutrición, deporte y vida sana, 
-                            con amplia experiencia atendiendo deportistas y personas que quieran mejorar sus hábitos de salud.
-                            La entrevista nutricional consiste en dos secciones:
+                            con amplia experiencia atendiendo deportistas y personas que requieran mejorar sus hábitos de salud.
+                            La consulta nutricional consiste en dos secciones:
                             </p>
 
                             <p style={{textAlign: 'justify'}} className='psty'>
@@ -39,8 +39,8 @@ function IniConsulta(){
                             perímetros y diámetros óseos, para así construir un perfil antropométrico completo. Para esta
                             instancia se recomienda asistir con short deportivo en caso de los hombres, y short
                             y peto deportivo en el caso de las mujeres. El paciente puede asistir solo o acompañado, y tiene 
-                            la libertad de detener la medición si así lo prefiere en caso de no sentirse comoda o comodo, puediendo
-                            también optar por la evaluación a través de bioimpedancia.
+                            la libertad de detener la medición si así lo prefiere en caso de no sentirse comoda o comodo, pudiendo
+                            optar por la evaluación a través de bioimpedancia.
                             </p>
                             <p style={{textAlign: 'justify'}} className='psty'>
                             Atenciones disponibles de lunes a sabado, de 9am a 7pm de forma online y presencial en 

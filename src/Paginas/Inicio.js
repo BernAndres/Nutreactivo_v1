@@ -7,7 +7,6 @@ import Servicios from '../componentes/IniServicios';
 import IniConsulta from '../componentes/IniConsulta';
 import IniCoverturas from '../componentes/IniCoverturas';
 import IniNutris from '../componentes/IniNutris';
-import CuerpoInicio from '../componentes/CuerpoInicio';
 import Footer from '../componentes/Footer';
 
 function Inicio() {
@@ -25,7 +24,6 @@ function Inicio() {
             <IniCoverturas/>
             <div style={{height: '100px'}}/>
             <IniNutris/>
-            {/* <CuerpoInicio/> */}
             <div style={{height: '100px'}}/>
             <Footer/>
         </>
