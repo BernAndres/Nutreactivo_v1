@@ -1,6 +1,5 @@
 import Ig from '../imgs/img_instagram_icon.png'
 import Wtsp from '../imgs/img_whatsapp_icon.png'
-import { NavLink } from "react-router-dom";
 
 function Footer(){
     return(
@@ -17,10 +16,10 @@ function Footer(){
                         </div>
                         <div className="col-0 col-lg-6"></div>
                         <div className="d-flex col-6 col-lg-3 justify-content-end align-items-center">
-                            <a href='https://www.instagram.com/nutreactivo.cl/?hl=es-la' target='_blank' rel='external' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
+                            <a href='https://www.instagram.com/nutreactivo.cl/?hl=es-la' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
                                 <img src={Ig} style={{height: '60%'}} alt='Icon instagram'></img>
                             </a>
-                            <a href='https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo' target='_blank' rel='external' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
+                            <a href='https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
                                 <img src={Wtsp} style={{height: '60%'}} alt='Icon wtsp'></img>
                             </a>
                         </div>

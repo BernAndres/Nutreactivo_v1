@@ -1,7 +1,6 @@
 import React from 'react';
 import '../App.css';
 import Video from '../videos/video1.mp4';
-import { NavLink } from "react-router-dom";
 
 
 function FrontPage(){

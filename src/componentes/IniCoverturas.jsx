@@ -5,9 +5,6 @@ import IsapreConsalud from '../imgs/img_isapre_consalud.png'
 import IsapreNuevaMasVida from '../imgs/img_isapre_nueva_mas_vida.png'
 import IsapreVidaTres from '../imgs/img_isapre_vida_tres.png'
 import IsapreCruzBlanda from '../imgs/img_cruz_blanca.png'
-import Salud from '../imgs/img_salud_1.png'
-
-import { NavLink } from "react-router-dom";
 
 import Aos from "aos";
 import 'aos/dist/aos.css';

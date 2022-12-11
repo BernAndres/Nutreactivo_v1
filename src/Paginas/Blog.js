@@ -17,7 +17,7 @@ function Blog() {
                 <div className='row'>
                     <div className='col-10 m-auto d-flex flex-column justify-content-center align-items-center'>
                         <h3 className='h1'>Actualmente esta sección está en construcción u_u</h3>
-                        <img src={Construccion} className='w-25'></img>
+                        <img src={Construccion} alt='En construccion' className='w-25'></img>
                     </div>
                 </div>
             </div>

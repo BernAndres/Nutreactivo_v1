@@ -6,7 +6,7 @@ function InstructivoPDF() {
     return(
         <div className='container-fluid'>
             {/* <iframe src='../pdfs/Instructivo_mediciones.pdf'></iframe>  */}
-            <iframe src={PDFMed} className='pdfsty'></iframe>
+            <iframe src={PDFMed} title='Instructivo' className='pdfsty'></iframe>
         </div>
     )
 }

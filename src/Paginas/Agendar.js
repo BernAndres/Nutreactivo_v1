@@ -3,7 +3,6 @@ import Bar from '../componentes/Bar';
 import NavBack from '../componentes/NavBack';
 import Navbar from '../componentes/Navbar';
 import Footer from '../componentes/Footer';
-import Construccion from '../imgs/enConstruccion.png'
 
 function Agendar() {
     return(
@@ -24,7 +23,7 @@ function Agendar() {
 
                         </p>
                         <div className='border bg-secondary rounded d-flex justify-content-center btnAgendar'>
-                            <a className="navtextstybtn px-5 py-3 w-100 text-center" target='_blank' rel='external' href="https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo">
+                            <a className="navtextstybtn px-5 py-3 w-100 text-center" target='_blank' rel='noreferrer' href="https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo">
                             AGENDA AQUÍ
                             </a>
                         </div>

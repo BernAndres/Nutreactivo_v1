@@ -1,5 +1,7 @@
 import React from 'react';
 import '../App.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
 import { NavLink } from "react-router-dom";
 
 function Navbar(){
@@ -16,7 +18,8 @@ function Navbar(){
     
     {/* BOTÓN MENÚ */}
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      <span className="navbar-toggler-icon white"></span>
+      {/* <span className="navbar-toggler-icon white"></span> */}
+      <FontAwesomeIcon icon={faBars} color='white' size='xl'/>
     </button>
     
     {/* MENÚ */}

@@ -1,7 +1,6 @@
 import '../App.css';
 import Alvaro from '../imgs/img_nutricionista_alvaro_1.png'
 import Diego from '../imgs/img_nutricionista_diego.png'
-import { NavLink } from "react-router-dom";
 
 import Aos from "aos";
 import 'aos/dist/aos.css';
@@ -22,7 +21,7 @@ function IniConsulta(){
             <div className="row d-flex mb-5 d-flex justify-content-evenly" data-aos="fade-up">
                 {/* alvaro */}
                 <div className='col-10 col-md-3 py-5 mb-3 d-flex flex-column align-items-center bg-quinary rounded'>
-                    <img src={Alvaro} className='rounded-circle w-75 mb-3'></img>
+                    <img src={Alvaro} alt='nutricionista Alvaro' className='rounded-circle w-75 mb-3'></img>
                     <h3 className='text-tertiary mb-3'>Álvaro Cañete</h3>
                     <h4 className='text-tertiary mb-3'>Nutricionista</h4>
                     <p className='mx-3 mb-3 text-tertiary' style={{textAlign: 'justify'}}>
@@ -33,7 +32,7 @@ function IniConsulta(){
                 </div>
                  {/* diego */}
                  <div className='col-10 col-md-3 py-5 mb-3 d-flex flex-column align-items-center bg-quinary rounded'>
-                    <img src={Diego} className='rounded-circle w-75 mb-3'></img>
+                    <img src={Diego} alt='nutricionista Diego' className='rounded-circle w-75 mb-3'></img>
                     <h3 className='text-tertiary mb-3'>Diego Hernandez</h3>
                     <h4 className='text-tertiary mb-3'>Nutricionista</h4>
                     <p className='mx-3 mb-3 text-tertiary' style={{textAlign: 'justify'}}>

@@ -1,8 +1,6 @@
 import '../App.css';
 import Video from '../videos/video2.mp4'
 
-import { NavLink } from "react-router-dom";
-
 import Aos from "aos";
 import 'aos/dist/aos.css';
 import { useEffect } from 'react';

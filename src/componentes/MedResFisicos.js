@@ -80,7 +80,7 @@ function MedResFisicos(){
                         <div className='d-flex justify-content-center'>
                             <p className='mx-0 mx-lg-5 my-4 px-4 px-lg-5 py-3 bg-quaternary rounded text-primary msjBoxSty'>
                                 Las siguientes imágenes sobre indicadores físicos son referenciales, los resultados de la
-                                evaluación física son entregados al usuario mediante el software <a href='https://www.5componentes.com/' target='_blank' rel='external'>5componentes.</a>
+                                evaluación física son entregados al usuario mediante el software <a href='https://www.5componentes.com/' target='_blank' rel='noreferrer'>5componentes.</a>
                             </p>
                         </div>
                     </div>

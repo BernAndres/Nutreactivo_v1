@@ -30,7 +30,7 @@ function EvFisica() {
                         <p className='psty'>
                         Evaluación antropométrica para deportistas según estandares ISAK 1. 
                         Obtendrás todos los resultados de tus mediciones por medio del Software
-                        nutricional <a target="_blank" rel='external' href="https://www.5componentes.com/">5componentes</a>.
+                        nutricional <a target="_blank" rel='noreferrer' href="https://www.5componentes.com/">5componentes</a>.
                         </p>
                     </div>
                 </div>

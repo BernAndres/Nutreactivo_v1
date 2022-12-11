@@ -7,7 +7,6 @@ import Footer from '../componentes/Footer';
 import { NavLink } from 'react-router-dom';
 
 import Video from '../videos/video3.mp4';
-import Img1 from '../imgs/img_notebook.jpg';
 import Img2 from '../imgs/img_imc_2.png';
 import Img3 from '../imgs/img_medicion_6.jpg';
 import Img4 from '../imgs/img_medicion_4.jpg';
