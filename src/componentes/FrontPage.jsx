@@ -13,10 +13,10 @@ function FrontPage(){
                 </div>
                 <div className='col-12 w-100 h-100 position-absolute'>
                     <div className='position-relative d-flex flex-column h-100 w-100 d-flex justify-content-center align-items-center text-white'>
-                        <p className='display-4 mx-1 fw-bold mb-3 text-center'>
+                        <p className='display-4 mx-1 fw-bold mb-3 text-center textsty1'>
                             NUTRICIÓN PARA EL DEPORTE  <br/> Y VIDA SANA
                         </p>
-                        <p className='h5 mx-1 text-center'>
+                        <p className='h5 mx-1 text-center textsty1'>
                             Nutricionistas especializados en nutrición, ejercicio y rendimiento deportivo.
                         </p>
                     </div>

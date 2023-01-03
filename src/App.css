@@ -1,16 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+
+
 /* GENERAL */
+.textsty1{
+  font-family: 'Poppins', sans-serif;
+}
 .psty{
   font-size: 16px;
   text-align: justify;
+  font-family: 'Poppins', sans-serif;
+}
+.psty2{
+  font-size: 14px;
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
 }
 .bg-quinary{
   background-color: #CFCCE9;
 }
 
-/* BAR */
-.barsty{
+.espacio1{
+  height: 250px;
+}
+@media only screen and (max-width: 992px){
+  .espacio1{
+    height: 150px;
+  }
+}
+
+
+/* BAR 1*/
+.barsty1{
   z-index: 3;
 }
+
+/* BAR 2*/
+.barsty2{
+  z-index: 1;
+}
+
 
 /* NAV BACK */
 .navbacksty{
@@ -19,8 +48,8 @@
   position: fixed;
   top: 0px;
   left: 0px;
-  background-color: black;
-  opacity: 0.7;
+  background-color: #57606f;
+  opacity: 0.5;
   z-index: 1;
 }
 @media only screen and (max-width: 992px){
@@ -29,19 +58,37 @@
   }
 }
 
-/* NAVBAR */
-.navbarsty{
+/* NAVBAR 1*/
+.navbarsty1{
   background-color: none;
   z-index: 3;
 }
-.menusty{
-  
+
+/* NAVBAR 2*/
+.navbarsty2{
+  background-color: white;
+  border-bottom: 1px solid #ced6e0;
+  z-index: 3;
+  z-index: 1;
 }
+
 .navbtn1sty{
   background-color: #01FFA5;
 }
+.navlogosty{
+  color: black;
+}
 .navtextsty{
   color: white;
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+}
+.navtextsty2{
+  color: #57606f;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   transition: 0.3s;
   font-size: 16px;
@@ -49,13 +96,16 @@
 }
 .navtextstybtn{
   color: black;
+  font-family: 'Poppins', sans-serif;
   text-decoration: none;
   transition: 0.3s;
   font-size: 16px;
-  font-weight: 500;
-
 }
 .navtextsty:hover{
+  color: #01FFA5;
+  transition: 0.3s;
+}
+.navtextsty2:hover{
   color: #01FFA5;
   transition: 0.3s;
 }
@@ -63,8 +113,14 @@
   .navbarsty{
     /* background-color: #4E07E3; */
   }
+  .navbarsty2{
+    background-color: black;
+  }
   .navbtn1sty{
     background-color: rgba(0,0,0,0);
+  }
+  .navlogosty{
+    color: white;
   }
   .navtextsty{
     color: #dfe4ea; 
@@ -74,13 +130,19 @@
   .navtextsty:hover{
     color: #01FFA5; 
   }
+  .navtextsty2{
+    color: white;
+  }
+  .navtextsty2:hover{
+    color: #01FFA5; 
+  }
   .navtextstybtn{
     color: white;
   }
   .menusty{
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
-    height: auto;
+    /* height: auto; */
     position: relative;
     /* top: 50px; */
     /* border-radius: 15px; */
@@ -106,10 +168,13 @@
 
 .videosty{
   position: relative;
-  overflow: hidden;
+  top: 50%; /*probando*/
+  left: 50%; /*probando*/
+  /* overflow: hidden; */ 
   object-fit: cover;  /* esta es la clave */
   width: 100%;
   height: 100%;
+  transform: translate(-50%, -50%); /**/
 }
 
 
@@ -145,7 +210,7 @@
 
 /* INICIO CONSULTA NUTRICIONAL */
 .video2sty{
-  width: 75%;
+  width: 60%;
 }
 @media only screen and (max-width: 992px){
   .video2sty{
@@ -161,6 +226,9 @@
 .imgsty{
   width: 75%;
 }
+.imgsty2{
+  width: 75%;
+}
 .textJustify{
   text-align: justify;
 }
@@ -171,7 +239,11 @@
   .imgsty{
     width: 75%;
   }
+  .imgsty2{
+    width: 100%;
+  }
 }
+
 @media only screen and (max-width: 600px){
   .btnsty{
     width: 100%
@@ -245,4 +317,27 @@
   .btnAgendar{
     width: 100%;
   }
+}
+
+/* ARTICULOS */
+
+.artsty{
+  color: black;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.artboxsty{
+  height: 80px;
+  background-color: #01FFA5;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.artboxsty:hover{
+  opacity: 0.8;
+  transform: 0.3s;
 }

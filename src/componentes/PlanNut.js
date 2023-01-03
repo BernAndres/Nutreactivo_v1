@@ -1,20 +1,20 @@
 import React from 'react';
 import '../App.css';
 
-import Aos from "aos";
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+// import Aos from "aos";
+// import 'aos/dist/aos.css';
+// import { useEffect } from 'react';
 
 function PlanNut(){
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-      }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    //   }, []);
     return(
         <div className='container-fluid mb-5'>
             <div className='row'>
                 <div className='col-1'></div>
                 <div className='col-10'>    
-                    <div className='row' data-aos="fade-up">
+                    <div className='row'>
                         <h4 className='fw-bold h2 text-tertiary'>Intervención nutricional</h4>
                         <p className='psty'>
                             El proceso de intervención nutricional es un proceso terapéutico donde nutricionista 

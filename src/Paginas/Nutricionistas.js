@@ -1,23 +1,15 @@
 import React from 'react';
-import Bar from '../componentes/Bar';
-import NavBack from '../componentes/NavBack';
-import Navbar from '../componentes/Navbar';
+import Bar from '../componentes/Bar2';
+import Navbar from '../componentes/Navbar2';
 import Footer from '../componentes/Footer';
 import IniNutris from '../componentes/IniNutris';
 
-import Aos from "aos";
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
 
 function Nutricionistas() {
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-      }, []);
     return(
         <>
             <Bar/>
             <Navbar/>
-            <NavBack/>
             <div style={{height: '150px'}}/>
 
            <IniNutris/>

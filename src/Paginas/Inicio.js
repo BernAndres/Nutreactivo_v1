@@ -1,7 +1,8 @@
 import React from 'react';
-import Bar from '../componentes/Bar';
-import NavBack from '../componentes/NavBack';
-import Navbar from '../componentes/Navbar';
+import Bar from '../componentes/Bar1';
+import Bar2 from '../componentes/Bar2';
+import Navbar from '../componentes/Navbar1';
+import Navbar2 from '../componentes/Navbar2';
 import FrontPage from '../componentes/FrontPage';
 import Servicios from '../componentes/IniServicios';
 import IniConsulta from '../componentes/IniConsulta';
@@ -14,9 +15,10 @@ function Inicio() {
         <>
             <Bar/>
             <Navbar/>
-            <NavBack/>
+            <Bar2/>
+            <Navbar2/>
             <FrontPage />
-            <div style={{height: '100px',}}/>
+            <div style={{height: '150px',}}/>
             <Servicios/>
             <div style={{height: '100px'}}/>
             <IniConsulta/>

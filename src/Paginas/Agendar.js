@@ -1,7 +1,6 @@
 import React from 'react';
-import Bar from '../componentes/Bar';
-import NavBack from '../componentes/NavBack';
-import Navbar from '../componentes/Navbar';
+import Bar from '../componentes/Bar2';
+import Navbar from '../componentes/Navbar2';
 import Footer from '../componentes/Footer';
 
 function Agendar() {
@@ -9,7 +8,6 @@ function Agendar() {
         <>
             <Bar/>
             <Navbar/>
-            <NavBack/>
             <div style={{height: '250px'}}/>
 
             <div className='container-fluid'>

@@ -1,9 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Img2 from '../imgs/img_medicion_2.png';
-import Img3 from '../imgs/img_medicion_3.png';
-import Img4 from '../imgs/img_medicion_4.jpg';
-import Img5 from '../imgs/img_medicion_5.jpg';
+import Video from '../videos/video4.mp4';
 import Img11 from '../imgs/img_comp_corp_porc.png';
 import Img12 from '../imgs/img_comp_corp_kg.png';
 import Img13 from '../imgs/img_somatocarta.png';
@@ -14,14 +11,14 @@ import Img17 from '../imgs/img_perimetros.png';
 import Img18 from '../imgs/img_imc_2.png';
 import Img19 from '../imgs/img_indices.png';
 
-import Aos from "aos";
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+// import Aos from "aos";
+// import 'aos/dist/aos.css';
+// import { useEffect } from 'react';
 
 function MedResFisicos(){
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-    }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    // }, []);
     return(
         <div className='container-fluid mb-5'>
 
@@ -29,9 +26,9 @@ function MedResFisicos(){
         <div className='row mb-5'>
             <div className='col-1'></div>
             <div className='col-10'>
-                <div className='row' data-aos="fade-up">
+                <div className='row'>
                     <div className='col-12 col-lg-6'>
-                        <h4 className='fw-bold h2 text-tertiary'>Medición física</h4>
+                        <h4 className='h2 fw-bold display-6 mb-4 textsty1'>Evaluación física</h4>
                         <p className='psty'>
                             Durante la evaluación física, el nutricionista tomará diversas mediciones corporales al usuario,
                             como peso, estatura, pliegues y perímetros corporales, acorde a los estándares ISAK 1. 
@@ -39,23 +36,8 @@ function MedResFisicos(){
                             indicadores de relevancia respecto a la salud del usuario y el rendimiento deportivo del atleta.
                         </p>
                     </div>
-                    <div className='col-12 col-lg-6'>
-                           <div className='row'>
-                                <div className='col-12 col-sm-6 g-0 p-1'>
-                                    <img className='w-100 rounded' src={Img4} alt='Medicion fisica'></img>
-                                </div>
-                                <div className='col-12 col-sm-6 g-0 p-1'>
-                                    <img className='w-100 rounded' src={Img3} alt='Medicion fisica'></img>
-                                </div>
-                           </div>
-                           <div className='row'>
-                                <div className='col-12 col-sm-6 g-0 p-1'>
-                                    <img className='w-100 rounded' src={Img2} alt='Medicion fisica'></img>
-                                </div>
-                                <div className='col-12 col-sm-6 g-0 p-1'>
-                                    <img className='w-100 rounded' src={Img5} alt='Medicion fisica'></img>
-                                </div>
-                           </div>
+                    <div className='col-12 col-lg-6 d-flex justify-content-center'>
+                            <video src={Video} className='rounded video2sty' type='video/mp4' controls></video>
                     </div>
                 </div>
             </div>
@@ -68,14 +50,12 @@ function MedResFisicos(){
             <div className='col-10'>
           <div className='row' data-aos="fade-up">
                     <div className='row mb-3 d-flex justify-content-center mx-0 px-0'>
-                        <h4 className='fw-bold h2 text-tertiary'>Resultados mediciones</h4>
+                        <h4 className='h2 fw-bold display-6 mb-4 textsty1'>Resultados mediciones</h4>
                         <p className='psty'>
-                            Las mediciones antropométricas nos entregan como resultado una gran variedad de indicadores físicos y de 
-                            salud, como lo son los componentes corporales como masa muscular, grasa, ósea y residual, además de otros  
-                            indicadores de interés para el deportista como la somatocarta, estratagema phantom, perfil de pliegues cutáneos, 
-                            perfil de perímetros corporales, índice de masa corporal e indicadores corporales como índice músculo
-                            óseo, índice masa grasa, índice masa muscular, índice cintura cadera, entre otros indicadores 
-                            físicos. 
+                            La evaluación física o antropométrica nos entrega como resultado una gran variedad de 
+                            indicadores de interés deportivo y de salud, como lo son los componentes corporales,
+                            la somatocarta del invividuo, estrategema phantom, índice de masa corporal, entre otros
+                            indicadores físicos.
                         </p>
                         <div className='d-flex justify-content-center'>
                             <p className='mx-0 mx-lg-5 my-4 px-4 px-lg-5 py-3 bg-quaternary rounded text-primary msjBoxSty'>

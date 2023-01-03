@@ -1,22 +1,22 @@
 import React from 'react';
 import '../App.css';
 
-import Aos from "aos";
-import 'aos/dist/aos.css';
-import { useEffect } from 'react';
+// import Aos from "aos";
+// import 'aos/dist/aos.css';
+// import { useEffect } from 'react';
 
 function Valores1(){
-    useEffect(() => {
-        Aos.init({ duration: 2000 });
-    }, []);
+    // useEffect(() => {
+    //     Aos.init({ duration: 2000 });
+    // }, []);
     return(
-        <div className='container-fluid mb-5' data-aos="fade-up">
+        <div className='container-fluid mb-5'>
         <div className='row'>
             <div className='col-1'></div>
             <div className='col-10'>
           {/* <div className='row' data-aos="fade-up"> */}
                     {/* <div className='row mb-3 d-flex justify-content-center mx-0 px-0'> */}
-                        <h4 className='fw-bold h2 text-tertiary'>Valores</h4>
+                        <h4 className='h2 fw-bold display-6 textsty1'>Valores</h4>
                         <p className='psty'>
                             Valor asesoría nutricional: 25.000 clp.
                         </p>

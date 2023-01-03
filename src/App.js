@@ -1,14 +1,15 @@
 import Inicio from './Paginas/Inicio';
-import AsesoriasGeneral from './Paginas/AsesoriasGeneral';
-import AsesoriaNut from './Paginas/AsesoriaNut';
-import AsesoriaDep from './Paginas/AsesoriaDep';
-import AsesoriaOnline from './Paginas/AsesoriaOnline';
+import Servicios from './Paginas/PgServicios';
+import AsesoriaNutPres from './Paginas/AsesoriaNutPres';
+import AsesoriaNutOnline from './Paginas/AsesoriaNutOnline';
 import EvFisica from './Paginas/EvFisica';
+import AsesoriaDeportiva from './Paginas/AsesoriaDeportiva';
 import Nutricionistas from './Paginas/Nutricionistas';
-import Blog from './Paginas/Blog';
+import Articulos from './Paginas/Articulos';
 import Agendar from './Paginas/Agendar';
-import SobreNosotros from './Paginas/SobreNosotros';
 import InstPDF from './Paginas/InstructivoPDF';
+import Articulo1 from './Paginas/Articulos-blog/Articulo1';
+import Articulo2 from './Paginas/Articulos-blog/Articulo2';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 function App() {
@@ -17,16 +18,18 @@ function App() {
       <div className="App">
         <Routes>
           <Route path='/' element={<Inicio/>}/>
-          <Route path='/Asesorias-general' element={<AsesoriasGeneral/>}/>
-          <Route path='/Asesoria-nutricional' element={<AsesoriaNut/>}/>
-          <Route path='/Asesoria-nutricional-deportistas' element={<AsesoriaDep/>}/>
-          <Route path='/Asesoria-nutricional-online' element={<AsesoriaOnline/>}/>
+          <Route path='/Servicios' element={<Servicios/>}/>
+          <Route path='/Asesoria-nutricional-presencial' element={<AsesoriaNutPres/>}/>
+          <Route path='/Asesoria-nutricional-online' element={<AsesoriaNutOnline/>}/>
           <Route path='/Evaluacion-fisica' element={<EvFisica/>}/>
+          <Route path='/Asesoria-deportiva' element={<AsesoriaDeportiva/>}/>
           <Route path='/Nutricionistas' element={<Nutricionistas/>}/>
-          <Route path='/Blog' element={<Blog/>}/>
+          <Route path='/Articulos' element={<Articulos/>}/>
           <Route path='/Agendar' element={<Agendar/>}/>
-          <Route path='/Sobre-nosotros' element={<SobreNosotros/>}/>
           <Route path='/Instructivo-mediciones' element={<InstPDF/>}/>
+
+          <Route path='/Articulos/Articulo-1' element={<Articulo1/>}/>
+          <Route path='/Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad' element={<Articulo2/>}/>
         
         </Routes>
       </div>
