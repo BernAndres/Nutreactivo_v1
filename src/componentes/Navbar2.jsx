@@ -2,7 +2,7 @@ import React from 'react';
 import '../App.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 
 function Navbar(){
     return(
@@ -12,9 +12,9 @@ function Navbar(){
 
     {/* LOGO */}
 
-    <NavLink className="navbar-brand px-0 px-sm-5 py-2 mt-lg-3 ms-3 ms-md-5" to="/">
+    <Link className="navbar-brand px-0 px-sm-5 py-2 mt-lg-3 ms-3 ms-md-5" to="/">
           <span className='h2 fw-bold navlogosty textsty1'>NUTREACTIVO</span>
-      </NavLink>
+      </Link>
     
     {/* BOTÓN MENÚ */}
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@ function Navbar(){
               Servicios
             </span>
             <ul className="dropdown-menu mx-0 my-0 px-0 py-0">
-              <li><NavLink className="dropdown-item" to="/Servicios">Servicios</NavLink></li>
+              <li><Link className="dropdown-item" to="/Servicios">Servicios</Link></li>
               <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-presencial">Asesoría nutricional presencial</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-online">Asesoría nutricional online</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Evaluacion-fisica">Evaluación física</NavLink></li>
@@ -40,9 +40,9 @@ function Navbar(){
           </li>
           {/* 2 - Nutricionistas */}
           <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
-            <NavLink className="navtextsty2" to="/Nutricionistas">
-              Nutricionistas
-            </NavLink>
+              <NavLink className="navtextsty2" to="/Nutricionistas">
+                Nutricionistas
+              </NavLink>
           </li>
           <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
             <NavLink className=" navtextsty2" to="/Articulos">

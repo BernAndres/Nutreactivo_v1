@@ -10,12 +10,10 @@ import Agendar from './Paginas/Agendar';
 import InstPDF from './Paginas/InstructivoPDF';
 import Articulo1 from './Paginas/Articulos-blog/Articulo1';
 import Articulo2 from './Paginas/Articulos-blog/Articulo2';
-import { BrowserRouter, Route, Routes, HashRouter, Switch} from "react-router-dom";
+import { BrowserRouter, Route, Routes, HashRouter} from "react-router-dom";
 
 function App() {
   return (
-    <div>
-
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <Routes>
@@ -29,13 +27,13 @@ function App() {
           <Route path='/Articulos' element={<Articulos/>}/>
           <Route path='/Agendar' element={<Agendar/>}/>
           <Route path='/Instructivo-mediciones' element={<InstPDF/>}/>
+
           <Route path='/Articulos/Articulo-1' element={<Articulo1/>}/>
           <Route path='/Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad' element={<Articulo2/>}/>
+        
         </Routes>
       </div>
     </BrowserRouter>
-
-    </div>
   );
 }
 
