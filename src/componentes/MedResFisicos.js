@@ -37,7 +37,10 @@ function MedResFisicos(){
                         </p>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <video src={Video} className='rounded video2sty' type='video/mp4' controls></video>
+                            {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
+                            <iframe width="" height=""
+                            src="https://www.youtube.com/embed/tYvFE5t76GI">
+                            </iframe>
                     </div>
                 </div>
             </div>

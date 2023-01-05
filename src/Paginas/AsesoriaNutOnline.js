@@ -57,20 +57,20 @@ function AsesoriaNutOnline() {
                     <div className='row'>
                         <h4 className='h2 fw-bold display-6 mb-4 textsty1'>Recomendaciones previas a la consulta</h4>
 
-                        <div className='bg-quaternary px-5 py-3 rounded psty'>
-                            <div className='d-flex align-items-center mb-1'>
+                        <div className='bg-quaternary  px-2 px-lg-5 py-3 rounded psty'>
+                            <div className='d-flex align-items-center mb-3 mb-lg-1'>
                                 <div className='bg-secondary px-3 py-2 rounded-circle fw-bold h5 me-2 mx-0 my-0'>1</div>
-                                <p className='mx-0 my-0 pe-5'>
+                                <p className='mx-0 my-0 pe-0 pe-lg-5'>
                                 Contar con un computador con camara web o celular.
                                 </p>
                             </div>
-                            <div className='d-flex align-items-center mb-1'>
+                            <div className='d-flex align-items-center mb-3 mb-lg-1'>
                                 <div className='bg-secondary px-3 py-2 rounded-circle fw-bold h5 me-2 mx-0 my-0'>2</div>
                                 <p className='mx-0 my-0'>
                                 Asegurar el tener una buena conexión a internet.
                                 </p>
                             </div>
-                            <div className='d-flex align-items-center mb-1'>
+                            <div className='d-flex align-items-center mb-3 mb-lg-1'>
                                 <div className='bg-secondary px-3 py-2 rounded-circle fw-bold h5 me-2 mx-0 my-0'>3</div>
                                 <p className='mx-0 my-0'>
                                 Descargar la aplicación Zoom mediante la cual se realizará la teleconsulta.
@@ -113,7 +113,10 @@ function AsesoriaNutOnline() {
 
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <video src={Video} className='rounded video2sty' type='video/mp4' controls></video>
+                            {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
+                            <iframe width="" height=""
+                            src="https://www.youtube.com/embed/InqcR3w_V5Y">
+                            </iframe>
                         </div>
                     </div>
                 </div>
