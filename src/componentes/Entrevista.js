@@ -1,15 +1,8 @@
 import React from 'react';
 import '../App.css';
-import Video from '../videos/video2.mp4';
-
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
+// import Video from '../videos/video2.mp4';
 
 function Entrevista(){
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    //   }, []);
     return(
         <div className='container-fluid mb-5'>
             <div className='row'>
@@ -19,21 +12,18 @@ function Entrevista(){
                         <div className='col-12 col-lg-6'>
                             <h4 className='h2 mb-4 fw-bold display-6 textsty1'>Entrevista</h4>
                             <p className='psty'>
-                            La entrevista consiste en la primera instancia de la consulta, donde el
-                            paciente puede expresar sus intereses, objetivos y dudas. Además, el nutricionista
-                            le solicitará cierta información sobre antecedentes de salud, habitos alimenticios
-                            y saludables al paciente.
+                            Durante la entrevista el nutricionista le solicitará al paciente información sobre sus
+                            hábitos alimenticios y antecedentes de salud. Esta información no será utilizada con 
+                            otro fin que no sea en la misma atención del paciente.
                             </p>
                             <p className='psty'>
-                            Durante esta instancia, el paciente puede dar a conocer abiertamente sus hábitos alimenticios
-                            y relación con la comida, sin temor a ser juzgado, ya que el ojetivo de
-                            esta instancia es crear una alianza entre paciente y nutricionista basada en la confianza
-                            y transparencia, con el fin de abordar adecuadamente sus objetivos. 
+                            La entrevista tiene una duración de 15-20 minutos, instancia donde también el paciente
+                            puede dar a conocer sus intereses, objetivos y dudas. 
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
                             {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
-                            <iframe width="" height=""
+                            <iframe width="" height="400px"
                             src="https://www.youtube.com/embed/_u518cntCkY">
                             </iframe>
                         </div>

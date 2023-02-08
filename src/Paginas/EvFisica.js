@@ -7,14 +7,7 @@ import Valores from '../componentes/Valores3';
 import Footer from '../componentes/Footer';
 import Img1 from '../imgs/img_medicion_2.png';
 
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-
 function EvFisica() {
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    //   }, []);
     return(
         <> 
             <Bar/>
@@ -26,17 +19,17 @@ function EvFisica() {
                 <div className='col-10'>
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <h4 className='h2 fw-bold display-4 mb-4 textsty1'>Evaluación <br/> física</h4>
+                            <h3 className='h3 fw-bold display-4 mb-4 textsty1'>Evaluación <br/> física</h3>
                             <p className='psty'>
-                            Evaluación antropométrica para la determinación de la composición corporal, somatocarta,
-                            estrategema phantom y otros indicadores de interes deportivo y de salud. La evaluación física
-                            o antropométrica está dirigida a deportistas de alto rendimiento y personas físicamente activas
-                            que deseen un analisis detallado de sus parámetros corporales tanto deportivos como de salud.
+                            Si eres deportista, amante de la actividad física y deseas llevar seguimiento de todos 
+                            tus parámetros físicos, evalúate con nutricionistas certificados en antropometría. 
+                            Con tu medición, obtendras una evaluación física completa y detallada, incluyendo
+                            importantes indicadores utilizados en el deporte de alto rendimiento, como composición corporal,
+                            somatotipo, estratagema phantom, entre otros indicadores deportivos y de salud. 
                             </p>
                             <p className='psty'>
-                            La medición se realiza según los estándares ISAK 1. Todos los resultados son entregados 
-                            mediante el Software
-                            nutricional <a target="_blank" rel='noreferrer' href="https://www.5componentes.com/">5componentes</a>.
+                            Todos los resultados de la evaluación serán entregados mediante el la
+                            aplicación <a target="_blank" rel='noreferrer' href="https://www.5componentes.com/">5componentes</a>.
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>

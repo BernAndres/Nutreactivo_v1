@@ -26,7 +26,7 @@ function IniConsulta(){
                     <h4 className='text-tertiary mb-3 textsty1'>Nutricionista</h4>
                     <p className='mx-3 mb-3 text-tertiary psty' style={{textAlign: 'justify'}}>
                         Nutricionista titulado con distinción de la Universidad de Valparaíso. Diplomado en Nutrición
-                        Deportiva y Fitness Universidad de los Andes. ISAK nivel 1. Certificado en Nutrición, Ejercicio y Rendimiento Deportivo, 
+                        Deportiva y Fitness Universidad de los Andes. Antropometrista ISAK nivel 1. Certificado en Nutrición, Ejercicio y Rendimiento Deportivo, 
                         certificado en Alimentación y Nutrición Vegetariana Instituto Universitario Vive Sano.
                     </p>
                 </div>
@@ -36,8 +36,8 @@ function IniConsulta(){
                     <h3 className='text-tertiary mb-3 textsty1'>Diego Hernandez</h3>
                     <h4 className='text-tertiary mb-3 textsty1'>Nutricionista</h4>
                     <p className='mx-3 mb-3 text-tertiary psty' style={{textAlign: 'justify'}}>
-                        Nutricionista titulado con distinción de la Universidad de Valparaíso, antropometrista
-                        ISAK nivel I, estudiante de cuarto año de Pedagogía en Educación Física PUCV.
+                        Nutricionista titulado con distinción de la Universidad de Valparaíso. Antropometrista
+                        ISAK nivel I. Estudiante de cuarto año de Pedagogía en Educación Física PUCV.
                     </p>
                 </div>
             </div>

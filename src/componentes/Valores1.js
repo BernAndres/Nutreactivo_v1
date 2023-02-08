@@ -1,14 +1,7 @@
 import React from 'react';
 import '../App.css';
 
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-
 function Valores1(){
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    // }, []);
     return(
         <div className='container-fluid mb-5'>
         <div className='row'>

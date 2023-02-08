@@ -6,14 +6,7 @@ import IsapreNuevaMasVida from '../imgs/img_isapre_nueva_mas_vida.png'
 import IsapreVidaTres from '../imgs/img_isapre_vida_tres.png'
 import IsapreCruzBlanda from '../imgs/img_cruz_blanca.png'
 
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-
 function IniCoverturas(){
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    //   }, []);
     return(
         // ASESORÍAS
         <div className="container-fluid">

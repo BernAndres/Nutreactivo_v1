@@ -8,16 +8,9 @@ import Entrevista from '../componentes/Entrevista';
 import MedResFisicos from '../componentes/MedResFisicos';
 import PlanNutDep from '../componentes/PlanNutDep';
 import Valores from '../componentes/Valores1';
-import Img1 from '../imgs/img_comida_1.jpg';
-
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
+import Img1 from '../imgs/img_comida_1.png';
 
 function AsesoriaNutPres() {
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    //   }, []);
     return(
         <>
            <Bar/>
@@ -29,13 +22,16 @@ function AsesoriaNutPres() {
                     {/* 1 - Intro */}
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <h4 className='h2 display-4 fw-bold textsty1'>Asesoría <br/> Nutricional</h4>
+                            <h3 className='h2 display-4 fw-bold textsty1'>Asesoría <br/> Nutricional</h3>
                             <p className='psty'>
-                            La consulta nutricional se enfoca en la mejora del rendimiento deportivo, composición corporal,
-                            estado de salud y manejo de enfermedades o condiciones de índole nutricional. Es una instancia
-                            que se adecúa tanto a deportistas de alto rendimiento como a personas físicamente activas o que
-                            quieran mejorar su estilo de vida. Cada consulta incluye una evaluación física según los estandares
-                            ISAK 1, el usuario tendrá acceso a sus resultados mediante el software 5Componentes.
+                            Si eres amante del deporte, buscas una vida más saludable, y quieres darle a tu cuerpo la
+                            nutrición que requiere, asesorate con nutricionistas expertos en nutrición para el deporte y salud.
+                            En Nutreactivo encontraras nutricionistas comprometidos con sus pacientes, que te ayudarán 
+                            a lograr una alimentación equilibrada que potencie tu salud y tus rendimiento deportivo.
+                            Además, obtendrás todos los resultados de tu evaluación física a través de 
+                            la aplicación <a href='https://www.5componentes.com/' target='_blank' rel='external' >5Componentes</a>.
+                        
+
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>

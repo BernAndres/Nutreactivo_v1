@@ -2,7 +2,7 @@ import React from 'react';
 import Bar from '../../componentes/Bar2';
 import Navbar from '../../componentes/Navbar2';
 import Footer from '../../componentes/Footer';
-import Img from '../../imgs/img_comida_1.jpg';
+import Img from '../../imgs/img_comida_1.png';
 
 function Articulo1(){
     return(

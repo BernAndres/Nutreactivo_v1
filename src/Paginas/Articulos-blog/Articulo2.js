@@ -52,9 +52,9 @@ function Articulo2(){
                 {/* Titulo */}
                 <div className='row mb-5'>
                     <div className='col-10 m-auto'> 
-                        <h2 className=' fw-bold display-6 textsty1'>
+                        <h3 className=' fw-bold display-6 textsty1'>
                             Suplementos deportivos con mayor efectividad en la actualidad
-                        </h2>
+                        </h3>
                     </div>
                 </div>
 

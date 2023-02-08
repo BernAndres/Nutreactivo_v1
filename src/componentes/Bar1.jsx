@@ -12,9 +12,9 @@ function Bar(){
                 <a href='https://www.instagram.com/nutreactivo.cl/?hl=es-la' target='_blank' rel='noreferrer' className="d-flex align-items-center justify-content-center h-100">
                     <img src={Ig} style={{height: '60%'}} alt='Icon instagram'></img>
                 </a>
-                <a href='https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo' target='_blank' rel='noreferrer' className="d-flex align-items-center justify-content-center ms-4 h-100">
+                {/* <a href='https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo' target='_blank' rel='noreferrer' className="d-flex align-items-center justify-content-center ms-4 h-100">
                     <img src={Wtsp} style={{height: '60%'}} alt='Icon wtsp'></img>
-                </a>
+                </a> */}
                 <a href='mailto:nutreactivo@gmail.com' target='' rel='external' className="d-flex align-items-center justify-content-center ms-4 h-100">
                     <img src={Correo} style={{height: '60%'}} alt='Icon wtsp'></img>
                 </a>

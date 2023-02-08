@@ -1,6 +1,6 @@
 import React from 'react';
 import '../App.css';
-import Video from '../videos/video4.mp4';
+// import Video from '../videos/video4.mp4';
 import Img11 from '../imgs/img_comp_corp_porc.png';
 import Img12 from '../imgs/img_comp_corp_kg.png';
 import Img13 from '../imgs/img_somatocarta.png';
@@ -11,14 +11,7 @@ import Img17 from '../imgs/img_perimetros.png';
 import Img18 from '../imgs/img_imc_2.png';
 import Img19 from '../imgs/img_indices.png';
 
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-
 function MedResFisicos(){
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    // }, []);
     return(
         <div className='container-fluid mb-5'>
 
@@ -31,14 +24,16 @@ function MedResFisicos(){
                         <h4 className='h2 fw-bold display-6 mb-4 textsty1'>Evaluación física</h4>
                         <p className='psty'>
                             Durante la evaluación física, el nutricionista tomará diversas mediciones corporales al usuario,
-                            como peso, estatura, pliegues y perímetros corporales, acorde a los estándares ISAK 1. 
-                            Estas mediciones servirán para obtener
-                            indicadores de relevancia respecto a la salud del usuario y el rendimiento deportivo del atleta.
+                            como peso, estatura, pliegues y perímetros corporales.
+                            Estas mediciones servirán para obtener diversos indicadores de interés deportivo y de salud.
+                        </p>
+                        <p className='psty'>
+                            Todas las mediciones son realizadas según los estándares ISAK nivel 1.
                         </p>
                     </div>
                     <div className='col-12 col-lg-6 d-flex justify-content-center'>
                             {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
-                            <iframe width="" height=""
+                            <iframe width="" height="400px"
                             src="https://www.youtube.com/embed/tYvFE5t76GI">
                             </iframe>
                     </div>
@@ -57,7 +52,7 @@ function MedResFisicos(){
                         <p className='psty'>
                             La evaluación física o antropométrica nos entrega como resultado una gran variedad de 
                             indicadores de interés deportivo y de salud, como lo son los componentes corporales,
-                            la somatocarta del invividuo, estrategema phantom, índice de masa corporal, entre otros
+                            somatotipo, estrategema phantom, índice de masa corporal, entre otros
                             indicadores físicos.
                         </p>
                         <div className='d-flex justify-content-center'>
