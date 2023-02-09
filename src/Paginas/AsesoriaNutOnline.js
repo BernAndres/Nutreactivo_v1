@@ -4,8 +4,8 @@ import Bar from '../componentes/Bar2';
 import Navbar from '../componentes/Navbar2';
 import Valores from '../componentes/Valores2';
 import Footer from '../componentes/Footer';
-import { NavLink } from 'react-router-dom';
-import Video from '../videos/video3.mp4';
+// import { NavLink } from 'react-router-dom';
+// import Video from '../videos/video3.mp4';
 import Img1 from '../imgs/img_comida_2.png';
 import Img2 from '../imgs/img_medicion_6.jpg';
 import Img3 from '../imgs/img_imc_2.png';
@@ -25,7 +25,7 @@ function AsesoriaNutOnline() {
                 <div className='col-10'>
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <h3 className='h2 fw-bold display-4 mb-4 textsty1'>Asesoría Nutricional Online</h3>
+                            <h3 className='h2 fw-bold display-4 mb-4 textsty1'>Consulta Nutricional Online</h3>
                             <p className='psty'>
                             Si eres amante del deporte, buscas una vida más saludable, y quieres darle a tu cuerpo la
                             nutrición que requiere, asesorate con nutricionistas expertos en nutrición para el deporte y salud.
@@ -37,7 +37,7 @@ function AsesoriaNutOnline() {
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <img src={Img1} className='imgsty2 rounded' alt='img'></img>
+                            <img src={Img1} className='imgsty2 rounded' alt='consulta nutricional deportiva y salud online'></img>
                         </div>
                     </div>
                 </div>
@@ -158,15 +158,15 @@ function AsesoriaNutOnline() {
                         <div className='row d-flex justify-content-around mb-lg-3 mb-lg-5 mx-0'>
                             <div className='col-12 col-lg-3 mb-3 mb-lg-0 imgMedSty'>
                                 <h5 className='text-center mt-2'>Índice de masa corporal</h5>
-                                <img src={Img3} alt='Composición corporal' className='w-100'></img>
+                                <img src={Img3} alt='Indice de masa corporal' className='w-100'></img>
                             </div>
                             <div className='col-12 col-lg-3  mb-3 mb-lg-0 imgMedSty'>
                                 <h5 className='text-center mt-2'>Circunferencia de cintura</h5>
-                                <img src={Img4} alt='Composición corporal' className='w-100'></img>
+                                <img src={Img4} alt='Circunferencia de cintura' className='w-100'></img>
                             </div>
                             <div className='col-12 col-lg-3  mb-3 mb-lg-0 imgMedSty'>
                                 <h5 className='text-center mt-2'>índice cintura/cadera</h5>
-                                <img src={Img5} alt='Somatocarta' className='w-100'></img>
+                                <img src={Img5} alt='Índice cintura cadera' className='w-100'></img>
                             </div>
                         </div>
                     </div>

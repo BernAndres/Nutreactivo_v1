@@ -5,14 +5,7 @@ import Footer from '../componentes/Footer';
 import ImgGym from '../imgs/img_gym.jpg';
 import ImgGym2 from '../imgs/img_gym2.jpg';
 
-// import Aos from "aos";
-// import 'aos/dist/aos.css';
-// import { useEffect } from 'react';
-
 function AsesoriaDeportiva() {
-    // useEffect(() => {
-    //     Aos.init({ duration: 2000 });
-    //   }, []);
     return(
         <> 
             <Bar/>
@@ -25,7 +18,7 @@ function AsesoriaDeportiva() {
                 <div className='col-10'>
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <h4 className='h2 fw-bold display-4 mb-4 textsty1'>Plan de <br/> entrenamiento</h4>
+                            <h3 className='h2 fw-bold display-4 mb-4 textsty1'>Plan de <br/> entrenamiento</h3>
                             <p className='psty'>
                             Plan de entrenamiento para deportistas y personas que busquen una vida más activa. En
                             nutreactivo puedes obtener tu plan mensual de entrenamiento con el que lograras un 
@@ -33,7 +26,7 @@ function AsesoriaDeportiva() {
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <img src={ImgGym} className='imgsty2 rounded' alt='img-gimnasio'></img>
+                            <img src={ImgGym} className='imgsty2 rounded' alt='Entrenamiento'></img>
                         </div>
                     </div>
                 </div>
@@ -71,7 +64,7 @@ function AsesoriaDeportiva() {
                       
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <img src={ImgGym2} className='imgsty2 rounded' alt='img-gimnasio'></img>
+                            <img src={ImgGym2} className='imgsty2 rounded' alt='Deporte'></img>
                         </div>
                     </div>
                 </div>

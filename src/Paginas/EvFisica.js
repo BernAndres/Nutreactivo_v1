@@ -33,7 +33,7 @@ function EvFisica() {
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <img src={Img1} className='imgsty2 rounded' alt='img'></img>
+                            <img src={Img1} className='imgsty2 rounded' alt='Evaluación física'></img>
                         </div>
                     </div>
                 </div>

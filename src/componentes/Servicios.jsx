@@ -18,7 +18,7 @@ function Servicios(){
                         {/* Cuadro 1 */}
                         <div className='col-12 col-lg-4 rounded mb-5 mb-lg-0 px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
                             <div className=''>
-                                <div className='mb-2'><img  src={Manzana} alt="icon" style={{height: '50px'}}></img></div>
+                                <div className='mb-2'><img  src={Manzana} alt="icon consulta nutricional" style={{height: '50px'}}></img></div>
                                 <h4 className='h3 fw-bold text-tertiary textsty1'>Consulta nutricional presencial</h4>
                                 <div className='mb-3 text-tertiary psty'>
                                 Dirigida a la mejora del rendimiento deportivo, composición corporal y estado de salud
@@ -34,7 +34,7 @@ function Servicios(){
                         {/* Cuadro 2 */}
                         <div className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
                             <div className=''>
-                                <div className='mb-2'><img  src={Online} alt="icon" style={{height: '50px'}}></img></div>
+                                <div className='mb-2'><img  src={Online} alt="icon consulta nutricional online" style={{height: '50px'}}></img></div>
                                 <h4 className='h3 fw-bold text-tertiary textsty1'>Asesoría nutricional online</h4>
                                 <div className='mb-3 text-tertiary psty'>
                                 Dirigida a la mejora del rendimiento deportivo, composición corporal y estado de salud
@@ -54,7 +54,7 @@ function Servicios(){
                         {/* Cuadro 1 */}
                         <div className='col-12 col-lg-4 rounded mb-5 mb-lg-0 px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
                             <div className=''>
-                                <div className='mb-2'><img  src={EvFisica} alt="icon" style={{height: '50px'}}></img></div>
+                                <div className='mb-2'><img  src={EvFisica} alt="icon evaluación física" style={{height: '50px'}}></img></div>
                                 <h4 className='h3 fw-bold text-tertiary textsty1'>Evaluación física</h4>
                                 <div className='mb-3 text-tertiary psty'>
                                 Determinación de la composición corporal, somatotipo,
@@ -70,7 +70,7 @@ function Servicios(){
                         {/* Cuadro 2 */}
                         <div className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
                             <div className=''>
-                                <div className='mb-2'><img  src={Pesa} alt="icon" style={{height: '50px'}}></img></div>
+                                <div className='mb-2'><img  src={Pesa} alt="icon plan entrenamiento" style={{height: '50px'}}></img></div>
                                 <h4 className='h3 fw-bold text-tertiary textsty1'>Plan de entrenamiento</h4>
                                 <div className='mb-3 text-tertiary psty'>
                                 Asesoría deportiva para la mejora del rendimiento, ganancia de fuerza y masa muscular.

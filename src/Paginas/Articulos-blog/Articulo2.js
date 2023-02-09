@@ -89,7 +89,7 @@ function Articulo2(){
                                 </p>
                             </div>
                             <div className='col-12 col-lg-5 d-flex justify-content-end'>
-                                <img src={Img1} className='imgsty2 rounded'></img>
+                                <img src={Img1} className='imgsty2 rounded' alt='suplementos deportivos'></img>
                             </div>
                         </div>
                     </div>
@@ -151,7 +151,7 @@ function Articulo2(){
                             vegetarianas suelen ser bajas en creatina.
                             </p>
                             <div className='col-12 col-lg-4 d-flex rounded justify-content-center'>
-                                 <img className='w-75 rounded' src={Img2} />
+                                 <img className='w-75 rounded' src={Img2} alt='creatina' />
                             </div>
                         </div>
                         {/* Creatina - efectos */}
@@ -322,7 +322,7 @@ function Articulo2(){
                             mucho más bajos de este nutriente.
                             </p>
                             <div className='col-12 col-lg-4 d-flex rounded justify-content-center'>
-                                 <img className='w-75 rounded' src={Img3} />
+                                 <img className='w-75 rounded' src={Img3} alt='beta alanina' />
                             </div>
                         </div>
                         {/* Creatina - efectos */}
@@ -466,7 +466,7 @@ function Articulo2(){
                             prolongados de alta intensidad.
                             </p>
                             <div className='col-12 col-lg-4 d-flex rounded justify-content-center'>
-                                 <img className='w-75 rounded' src={Img4} />
+                                 <img className='w-75 rounded' src={Img4} alt='bicarbonato de sodio' />
                             </div>
                         </div>
                         {/* Creatina - efectos */}
@@ -631,7 +631,7 @@ function Articulo2(){
                             alimento más destacado es la raíz de betarraga.
                             </p>
                             <div className='col-12 col-lg-4 d-flex rounded justify-content-center'>
-                                 <img className='w-75 rounded' src={Img5} />
+                                 <img className='w-75 rounded' src={Img5} alt='nitrato betarraga' />
                             </div>
                         </div>
                         {/* Creatina - efectos */}
@@ -803,7 +803,7 @@ function Articulo2(){
                             deportivos especializados. 
                             </p>
                             <div className='col-12 col-lg-4 d-flex rounded justify-content-center'>
-                                 <img className='w-75 rounded' src={Img6} />
+                                 <img className='w-75 rounded' src={Img6} alt='cafeina'/>
                             </div>
                         </div>
                         {/* Creatina - efectos */}

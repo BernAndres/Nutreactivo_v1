@@ -32,7 +32,7 @@ function Articulos() {
                             {/* Articulo 1 */}
                             <NavLink className='col-12 col-md-5 col-lg-3 px-2 artsty'
                                 to='/Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad'>
-                                <img src={ImgSuples} className='w-100 mb-1 rounded'></img>
+                                <img src={ImgSuples} className='w-100 mb-1 rounded' alt='Suplementos deportivos'></img>
                                 <h5 className='textsty1'>Suplementos deportivos con mayor efectividad en la actualidad</h5>
                                 <p className=' psty2'>
                                     Mucho se habla del uso de suplementos para mejorar el rendimiento y los resultados en el

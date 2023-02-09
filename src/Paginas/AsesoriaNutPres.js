@@ -22,7 +22,7 @@ function AsesoriaNutPres() {
                     {/* 1 - Intro */}
                     <div className='row'>
                         <div className='col-12 col-lg-6'>
-                            <h3 className='h2 display-4 fw-bold textsty1'>Asesoría <br/> Nutricional</h3>
+                            <h3 className='h2 display-4 fw-bold textsty1'>Consulta <br/> Nutricional</h3>
                             <p className='psty'>
                             Si eres amante del deporte, buscas una vida más saludable, y quieres darle a tu cuerpo la
                             nutrición que requiere, asesorate con nutricionistas expertos en nutrición para el deporte y salud.
@@ -30,12 +30,10 @@ function AsesoriaNutPres() {
                             a lograr una alimentación equilibrada que potencie tu salud y tus rendimiento deportivo.
                             Además, obtendrás todos los resultados de tu evaluación física a través de 
                             la aplicación <a href='https://www.5componentes.com/' target='_blank' rel='external' >5Componentes</a>.
-                        
-
                             </p>
                         </div>
                         <div className='col-12 col-lg-6 d-flex justify-content-center'>
-                            <img src={Img1} className='imgsty2 rounded' alt='img'></img>
+                            <img src={Img1} className='imgsty2 rounded' alt='consulta nutricional deportiva y salud'></img>
                         </div>
                     </div>
                 </div>

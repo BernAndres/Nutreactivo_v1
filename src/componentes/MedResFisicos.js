@@ -73,7 +73,7 @@ function MedResFisicos(){
                         </div>
                         <div className='col-12 col-lg-3  mb-3 mb-lg-0 imgMedSty'>
                             <h5 className='text-center mt-2'>Somatocarta</h5>
-                            <img src={Img13} alt='Somatocarta' className='w-100'></img>
+                            <img src={Img13} alt='Somatotipo' className='w-100'></img>
                         </div>
                     </div>
                     <div className='row d-flex justify-content-around mb-lg-3  mb-lg-5  mx-0'>

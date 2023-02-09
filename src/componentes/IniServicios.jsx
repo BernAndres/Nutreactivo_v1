@@ -17,7 +17,7 @@ function IniServicios(){
             <div className='row d-flex justify-content-evenly '>
                 {/* asesoria nutricional */}
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
-                    <div className='mb-2 mt-3'><img  src={Manzana} alt="icon" style={{height: '75px'}}></img></div>
+                    <div className='mb-2 mt-3'><img  src={Manzana} alt="icon consulta nutricional" style={{height: '75px'}}></img></div>
                     <h4 className=' h2 text-tertiary text-center textsty1'>Consulta nutricional</h4>
                     <p className='h5 text-tertiary text-center mb-4 textsty1'>presencial</p>
                     <div className='mb-4 mx-3 text-tertiary psty' style={{textAlign: 'justify'}}>
@@ -29,7 +29,7 @@ function IniServicios(){
 
                 {/* asesoria nutricional online */}
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
-                    <div className='mb-2 mt-3'><img  src={Online} alt="icon" style={{height: '75px'}}></img></div>
+                    <div className='mb-2 mt-3'><img  src={Online} alt="icon consulta nutricional online" style={{height: '75px'}}></img></div>
                     <h4 className=' h2 text-tertiary text-center textsty1'>Consulta nutricional</h4>
                     <p className='h5 text-tertiary text-center mb-4 textsty1'>online</p>
                     <div className='mb-4 mx-3 text-tertiary psty' style={{textAlign: 'justify'}}>
@@ -41,7 +41,7 @@ function IniServicios(){
 
                 {/* Evaluación física */}
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
-                    <div className='mb-2 mt-3'><img  src={EvFisica} alt="icon" style={{height: '75px'}}></img></div>
+                    <div className='mb-2 mt-3'><img  src={EvFisica} alt="icon evaluación física" style={{height: '75px'}}></img></div>
                     <h4 className=' h2 text-tertiary text-center textsty1'>Evaluación física</h4>
                     <p className='h5 text-tertiary text-center mb-4 textsty1'>presencial</p>
                     <div className='mb-4 mx-3 text-tertiary psty' style={{textAlign: 'justify'}}>
@@ -53,7 +53,7 @@ function IniServicios(){
 
                 {/*  nutricional deportiva */}
                 <div className='col-10 col-md-5 col-lg-2 mb-4 box1sty'>
-                    <div className='mb-2 mt-3'><img  src={Pesa} alt="icon" style={{height: '75px'}}></img></div>
+                    <div className='mb-2 mt-3'><img  src={Pesa} alt="icon plan entrenamiento" style={{height: '75px'}}></img></div>
                     <h4 className='h3 text-tertiary text-center textsty1'>Plan de entrenamiento</h4>
                     <p className='h5 text-tertiary text-center mb-4 textsty1'>online</p>
                     <div className='mb-4 mx-3 text-tertiary psty' style={{textAlign: 'justify'}}>
