@@ -20,9 +20,9 @@ function Footer(){
                             <a href='https://www.instagram.com/nutreactivo.cl/?hl=es-la' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
                                 <img src={Ig} style={{height: '60%'}} alt='Icon instagram'></img>
                             </a>
-                            {/* <a href='https://api.whatsapp.com/send?phone=56987307068&text=nutreactivo' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
+                            <a href='https://api.whatsapp.com/send?phone=56987307068' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
                                 <img src={Wtsp} style={{height: '60%'}} alt='Icon wtsp'></img>
-                            </a> */}
+                            </a>
                             <a href='mailto:nutreactivo@gmail.com' target='' rel='external' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
                                 <img src={Correo} style={{height: '60%'}} alt='Icon correo'></img>
                             </a>

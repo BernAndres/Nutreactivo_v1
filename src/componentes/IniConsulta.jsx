@@ -36,7 +36,7 @@ function IniConsulta(){
                     </div>
                     <div className="col-12 col-lg-6 d-flex justify-content-center">
                         {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
-                        <iframe width="" height=""
+                        <iframe width="" height="400px"
                         src="https://www.youtube.com/embed/JK3c-1FjwSc">
                         </iframe>
                     </div>
