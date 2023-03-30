@@ -13,11 +13,13 @@ import AsesoriaNutOnline from './Paginas/AsesoriaNutOnline';
 import EvFisica from './Paginas/EvFisica';
 import AsesoriaDeportiva from './Paginas/AsesoriaDeportiva';
 import Nutricionistas from './Paginas/Nutricionistas';
+import Convenios from './Paginas/Convenios';
 import Articulos from './Paginas/Articulos';
 import Agendar from './Paginas/Agendar';
 import InstPDF from './Paginas/InstructivoPDF';
 import Articulo1 from './Paginas/Articulos-blog/Articulo1';
 import Articulo2 from './Paginas/Articulos-blog/Articulo2';
+import Articulo3 from './Paginas/Articulos-blog/Articulo3';
 
 const router = createHashRouter([
   {path: '/', element: <Inicio/>,},
@@ -27,11 +29,13 @@ const router = createHashRouter([
   {path: 'Evaluacion-fisica', element: <EvFisica/>,},
   {path: 'Asesoria-deportiva', element: <AsesoriaDeportiva/>,},
   {path: 'Nutricionistas', element: <Nutricionistas/>,},
+  {path: 'Convenios', element: <Convenios/>,},
   {path: 'Articulos', element: <Articulos/>,},
   {path: 'Agendar', element: <Agendar/>,},
   {path: 'Instructivo-mediciones', element: <InstPDF/>,},
   {path: 'Articulos/Articulo-1', element: <Articulo1/>,},
   {path: 'Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad', element: <Articulo2/>,},
+  {path: 'Articulos/Sustancias-prohibidas-en-los-deportes-y-el-riesgo-de-contaminacion-en-los-suplementos', element: <Articulo3/>,},
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

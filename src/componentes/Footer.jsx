@@ -12,11 +12,11 @@ function Footer(){
                     <div className="d-flex">
                         <div className="col-6 col-lg-3 text-start text-white">
                             Contacto: <br/>
-                            {/* +56987307068 <br/> */}
+                            +56987307068 <br/>
                             nutreactivo@gmail.com
                         </div>
                         <div className="col-0 col-lg-6"></div>
-                        <div className="d-flex col-6 col-lg-3 justify-content-end align-items-center">
+                        {/* <div className="d-flex col-6 col-lg-3 justify-content-end align-items-center">
                             <a href='https://www.instagram.com/nutreactivo.cl/?hl=es-la' target='_blank' rel='noreferrer' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center" style={{width: '50px', height: '50px'}}>
                                 <img src={Ig} style={{height: '60%'}} alt='Icon instagram'></img>
                             </a>
@@ -26,7 +26,7 @@ function Footer(){
                             <a href='mailto:nutreactivo@gmail.com' target='' rel='external' className="rounded-circle  bg-secondary d-flex align-items-center justify-content-center ms-1" style={{width: '50px', height: '50px'}}>
                                 <img src={Correo} style={{height: '60%'}} alt='Icon correo'></img>
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="border-bottom border-white mt-3"></div>
                 </div>

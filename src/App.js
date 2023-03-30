@@ -5,6 +5,7 @@ import AsesoriaNutOnline from './Paginas/AsesoriaNutOnline';
 import EvFisica from './Paginas/EvFisica';
 import AsesoriaDeportiva from './Paginas/AsesoriaDeportiva';
 import Nutricionistas from './Paginas/Nutricionistas';
+import Convenios from './Paginas/Convenios';
 import Articulos from './Paginas/Articulos';
 import Agendar from './Paginas/Agendar';
 import InstPDF from './Paginas/InstructivoPDF';
@@ -25,6 +26,7 @@ function App() {
           <Route path='/Asesoria-nutricional-online' element={<AsesoriaNutOnline/>}/>
           <Route path='/Evaluacion-fisica' element={<EvFisica/>}/>
           <Route path='/Asesoria-deportiva' element={<AsesoriaDeportiva/>}/>
+          <Route path='/Convenios' element={<Convenios/>}/>
           <Route path='/Nutricionistas' element={<Nutricionistas/>}/>
           <Route path='/Articulos' element={<Articulos/>}/>
           <Route path='/Agendar' element={<Agendar/>}/>

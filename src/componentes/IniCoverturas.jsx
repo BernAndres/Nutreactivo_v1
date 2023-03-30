@@ -13,8 +13,8 @@ function IniCoverturas(){
             <div className='row'>
                 <div className='col-1'></div>
                 <div className='col-10'>
-                    <h2 className='text-tertiary display-6 fw-semibold text-start mb-5 textsty1'>
-                        COBERTURA
+                    <h2 className='textsty1 display-4 fw-bold'>
+                        Cobertura
                         {/* <img  src={Salud} style={{height: '50px', marginLeft: '10px'}} alt='icon'></img> */}
                     </h2>
                     <p className='text-start pb-3 psty'>

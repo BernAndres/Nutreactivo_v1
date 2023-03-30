@@ -6,14 +6,15 @@ function IniConsulta(){
     return( 
         // ASESORÍAS
         <div className="container-fluid">
-            <div className="row d-flex">
-                <div className='col-1'></div>
-                <div className='d-flex flex-column col-10 flex-lg-row'>
-                    <div className="d-flex flex-column col-12 col-lg-6 align-items-start justify-content-start mb-3 mb-lg-0">
-                        <h3 className='text-tertiary display-6 mb-4 fw-semibold d-flex align-items-center textsty1'>
-                            Consulta nutricional
-                        </h3>
-                        <div className='h-100 d-flex flex-column justify-content-center align-items-center align-items-lg-start'>
+           <div className='row d-flex flex-column-reverse flex-lg-row'>
+                <div className='col-12 col-lg-5 mx-auto d-flex justify-content-center align-items-center boxConsSty'>
+                        <iframe width="" height="400px" className='my-4 rounded'
+                        src="https://www.youtube.com/embed/JK3c-1FjwSc">
+                        </iframe>
+                </div>
+                <div className='col-10 col-lg-6 mx-auto'>
+                    <h3 className='textsty1 display-4 fw-bold mx-lg-5 mt-4'>Consulta nutricional</h3>
+                    <div className=' mx-lg-5 mt-4'>
                             <p style={{textAlign: 'justify'}} className='psty'>
                             En Nutreactivo encontrarás nutricionistas especialistas en nutrición deportiva, rendimiento y salud,
                             con amplia experiencia en deportistas y personas que buscan una vida más saludable.
@@ -32,17 +33,10 @@ function IniConsulta(){
                             <p className='psty'>
                             Atenciones disponibles de lunes a viernes, de 9am a 7pm, calle Limache 1724, Viña del Mar.
                             </p>
-                        </div>
-                    </div>
-                    <div className="col-12 col-lg-6 d-flex justify-content-center">
-                        {/* <video src={Video} className='rounded video2sty' type='video/mp4' controls></video> */}
-                        <iframe width="" height="400px"
-                        src="https://www.youtube.com/embed/JK3c-1FjwSc">
-                        </iframe>
                     </div>
                 </div>
                 <div className='col-1'></div>
-            </div>
+           </div>
         </div>
     )
 } 

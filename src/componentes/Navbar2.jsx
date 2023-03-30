@@ -32,10 +32,10 @@ function Navbar(){
             </span>
             <ul className="dropdown-menu mx-0 my-0 px-0 py-0">
               <li><Link className="dropdown-item" to="/Servicios">Servicios</Link></li>
-              <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-presencial">Asesoría nutricional presencial</NavLink></li>
-              <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-online">Asesoría nutricional online</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-presencial">Consulta nutricional presencial</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-online">Consulta nutricional online</NavLink></li>
               <li><NavLink className="dropdown-item" to="/Evaluacion-fisica">Evaluación física</NavLink></li>
-              <li><NavLink className="dropdown-item" to="/Asesoria-deportiva">Plan de entrenamiento</NavLink></li>
+              <li><NavLink className="dropdown-item" to="/Convenios">Convenios</NavLink></li>
             </ul>
           </li>
           {/* 2 - Nutricionistas */}

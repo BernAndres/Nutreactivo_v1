@@ -191,24 +191,30 @@
 }
 
 /* SERVICIOS */
-.box1sty{
-  border: 3px solid #01FFA5;
-  border-radius: 15px;
-  /* position: relative; */
+.boxServSty{
+  border: 3px solid #4E07E3;
+  border-radius: 10px;
   height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   transition: 0.3s;
-  padding: 0 0 30px 0;
 }
-.box1sty:hover{
-  box-shadow: 0px 0px 10px gray;
-  cursor: pointer;
+.boxServSty:hover{
+  box-shadow: 3px 3px 10px gray;
   transition: 0.3s;
+  cursor: pointer;
+  /* background-color: #8A89E6; */
+  /* background-color: #01FFA5; */
+  /* background-color: #CFCCE9; */
 }
 
 /* INICIO CONSULTA NUTRICIONAL */
+.boxConsSty{
+  box-shadow: 0px 0px 7px black;
+  border-radius: 0px 15px 15px 0px;
+  background-color: #4E07E3;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 .video2sty{
   width: 60%;
 }
@@ -216,6 +222,29 @@
   .video2sty{
     width: 100%
   }
+}
+@media only screen and (max-width: 992px){
+  .boxConsSty{
+    box-shadow: none;
+    border-radius: 0px;
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+
+/* NUTRICIONISTAS */
+.boxNutSty{
+  border: 3px solid #4E07E3;
+  border-radius: 10px;
+  height: auto;
+  transition: 0.3s;
+}
+.boxNutSty:hover{
+  box-shadow: 3px 3px 10px gray;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 /* CUERPO */
@@ -323,6 +352,17 @@
   .btnAgendar{
     width: 100%;
   }
+}
+
+/* CONVENIOS */
+.btnConvSty{
+  border-radius: 100px;
+  border: none;
+  transition: 0.3s;
+}
+.btnConvSty:hover{
+  box-shadow: 0px 0px 7px black;
+  transition: 0.3s;
 }
 
 /* ARTICULOS */

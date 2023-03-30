@@ -51,7 +51,7 @@ function Articulo2(){
 
                 {/* Titulo */}
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto'> 
+                    <div className='col-10 col-lg-8 m-auto'> 
                         <h3 className=' fw-bold display-6 textsty1'>
                             Suplementos deportivos con mayor efectividad en la actualidad
                         </h3>
@@ -60,7 +60,7 @@ function Articulo2(){
 
                 {/* Parrafo con imagen */}
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto'>
+                    <div className='col-10 col-lg-8 m-auto'>
                         <div className='row'>
                             <div className='col-12 col-lg-7 psty'>
                                 <p className='psty'>
@@ -97,7 +97,7 @@ function Articulo2(){
 
                 {/* Parrafo solo */}
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto'>
+                    <div className='col-10 col-lg-8 m-auto'>
                         <h4 className='fw-bold textsty1'>
                             Suplementos más efectivos
                         </h4>
@@ -123,7 +123,7 @@ function Articulo2(){
                 {/* CREATINA */}
 
                 <div className='row mb-3 pointer'>
-                    <div className='col-10 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
+                    <div className='col-10 col-lg-8 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
                         onClick={() => setCreatina(!creatina)}>
                         Creatina
                         {
@@ -140,7 +140,7 @@ function Articulo2(){
                     creatina &&
                 
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto border px-2 py-2 rounded'>
+                    <div className='col-10 col-lg-8 m-auto border px-2 py-2 rounded'>
                         <h4 className='fw-bold textsty1'>
                             Creatina
                         </h4>
@@ -292,7 +292,7 @@ function Articulo2(){
                 {/* BETA ALANINA */}
 
                 <div className='row mb-3 pointer'>
-                    <div className='col-10 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
+                    <div className='col-10 col-lg-8 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
                         onClick={() => setBalanina(!balanina)}>
                         Beta Alanina
                         {
@@ -309,7 +309,7 @@ function Articulo2(){
                     balanina &&
                 
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto border px-2 py-2 rounded'>
+                    <div className='col-10 col-lg-8 m-auto border px-2 py-2 rounded'>
                         <h4 className='fw-bold textsty1'>
                             Beta Alanina
                         </h4>
@@ -437,7 +437,7 @@ function Articulo2(){
                 {/* BICARBONATO */}
 
                 <div className='row mb-3 pointer'>
-                    <div className='col-10 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
+                    <div className='col-10 col-lg-8 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
                         onClick={() => setBicarbonato(!bicarbonato)}>
                         Bicarbonato de Sodio
                         {
@@ -454,7 +454,7 @@ function Articulo2(){
                     bicarbonato &&
                 
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto border px-2 py-2 rounded'>
+                    <div className='col-10 col-lg-8 m-auto border px-2 py-2 rounded'>
                         <h4 className='fw-bold textsty1'>
                             Bicarbonato de Sodio
                         </h4>
@@ -601,7 +601,7 @@ function Articulo2(){
                 {/* NITRATO */}
 
                 <div className='row mb-3 pointer'>
-                    <div className='col-10 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
+                    <div className='col-10 col-lg-8 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
                         onClick={() => setNitrato(!nitrato)}>
                         Nitrato
                         {
@@ -618,7 +618,7 @@ function Articulo2(){
                     nitrato &&
                 
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto border px-2 py-2 rounded'>
+                    <div className='col-10 col-lg-8 m-auto border px-2 py-2 rounded'>
                         <h4 className='fw-bold textsty1'>
                             Nitrato
                         </h4>
@@ -774,7 +774,7 @@ function Articulo2(){
                 {/* CAFEINA */}
 
                 <div className='row mb-3 pointer'>
-                    <div className='col-10 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
+                    <div className='col-10 col-lg-8 m-auto rounded d-flex justify-content-center align-items-center artboxsty'
                         onClick={() => setCafeina(!cafeina)}>
                         Cafeína
                         {
@@ -791,7 +791,7 @@ function Articulo2(){
                     cafeina &&
                 
                 <div className='row mb-5'>
-                    <div className='col-10 m-auto border px-2 py-2 rounded'>
+                    <div className='col-10 col-lg-8 m-auto border px-2 py-2 rounded'>
                         <h4 className='fw-bold textsty1'>
                             Cafeína
                         </h4>

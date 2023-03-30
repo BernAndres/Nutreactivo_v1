@@ -4,6 +4,7 @@ import Navbar from '../componentes/Navbar2';
 import Footer from '../componentes/Footer';
 import { NavLink } from "react-router-dom";
 import ImgSuples from '../imgs/img_suples1.jpg';
+import ImgSuples2 from '../imgs/img_suples3.png';
 import '../App.css';
 
 function Articulos() {
@@ -37,6 +38,18 @@ function Articulos() {
                                 <p className=' psty2'>
                                     Mucho se habla del uso de suplementos para mejorar el rendimiento y los resultados en el
                                     deporte, sin embargo...
+                                </p>
+                                <p className='psty'>Ver más</p>
+                            </NavLink>
+                            <div className='col-1'></div>
+                            <NavLink className='col-12 col-md-5 col-lg-3 px-2 artsty'
+                                to='/Articulos/Sustancias-prohibidas-en-los-deportes-y-el-riesgo-de-contaminacion-en-los-suplementos'>
+                                <img src={ImgSuples2} className='w-100 mb-1 rounded' alt='Suplementos deportivos'></img>
+                                <h5 className='textsty1'>Sustancias prohibidas en los deportes y el riesgo de contaminación
+                                en los suplementos.</h5>
+                                <p className=' psty2'>
+                                En el mundo de los suplementos deportivos existen ciertos riesgos y prohibiciones que debemos 
+                                considerar para...
                                 </p>
                                 <p className='psty'>Ver más</p>
                             </NavLink>
