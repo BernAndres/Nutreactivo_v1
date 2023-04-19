@@ -20,22 +20,24 @@ import InstPDF from './Paginas/InstructivoPDF';
 import Articulo1 from './Paginas/Articulos-blog/Articulo1';
 import Articulo2 from './Paginas/Articulos-blog/Articulo2';
 import Articulo3 from './Paginas/Articulos-blog/Articulo3';
+import Articulo4 from './Paginas/Articulos-blog/Articulo4';
 
 const router = createHashRouter([
-  {path: '/', element: <Inicio/>,},
-  {path: 'Servicios', element: <Servicios/>,},
-  {path: 'Asesoria-nutricional-presencial', element: <AsesoriaNutPres/>,},
-  {path: 'Asesoria-nutricional-online', element: <AsesoriaNutOnline/>,},
-  {path: 'Evaluacion-fisica', element: <EvFisica/>,},
-  {path: 'Asesoria-deportiva', element: <AsesoriaDeportiva/>,},
-  {path: 'Nutricionistas', element: <Nutricionistas/>,},
-  {path: 'Convenios', element: <Convenios/>,},
-  {path: 'Articulos', element: <Articulos/>,},
-  {path: 'Agendar', element: <Agendar/>,},
-  {path: 'Instructivo-mediciones', element: <InstPDF/>,},
-  {path: 'Articulos/Articulo-1', element: <Articulo1/>,},
-  {path: 'Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad', element: <Articulo2/>,},
-  {path: 'Articulos/Sustancias-prohibidas-en-los-deportes-y-el-riesgo-de-contaminacion-en-los-suplementos', element: <Articulo3/>,},
+  { path: '/', element: <Inicio />, },
+  { path: 'Servicios', element: <Servicios />, },
+  { path: 'Asesoria-nutricional-presencial', element: <AsesoriaNutPres />, },
+  { path: 'Asesoria-nutricional-online', element: <AsesoriaNutOnline />, },
+  { path: 'Evaluacion-fisica', element: <EvFisica />, },
+  { path: 'Asesoria-deportiva', element: <AsesoriaDeportiva />, },
+  { path: 'Nutricionistas', element: <Nutricionistas />, },
+  { path: 'Convenios', element: <Convenios />, },
+  { path: 'Articulos', element: <Articulos />, },
+  { path: 'Agendar', element: <Agendar />, },
+  { path: 'Instructivo-mediciones', element: <InstPDF />, },
+  { path: 'Articulos/Articulo-1', element: <Articulo1 />, },
+  { path: 'Articulos/Suplementos-deportivos-con-mayor-efectividad-en-la-actualidad', element: <Articulo2 />, },
+  { path: 'Articulos/Sustancias-prohibidas-en-los-deportes-y-el-riesgo-de-contaminacion-en-los-suplementos', element: <Articulo3 />, },
+  { path: 'Articulos/Alimentos-deportivos', element: <Articulo4 />, },
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(

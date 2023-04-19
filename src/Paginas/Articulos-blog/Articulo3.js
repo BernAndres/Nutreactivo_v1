@@ -7,18 +7,18 @@ import Img1 from '../../imgs/img_sello1.png';
 import Img2 from '../../imgs/img_sello2.png';
 import Img3 from '../../imgs/img_sello3.png';
 
-function Articulo1(){
-    return(
+function Articulo1() {
+    return (
         <>
-            <Bar/>
-            <Navbar/>
-            <div className='espacio1'/>
+            <Bar />
+            <Navbar />
+            <div className='espacio1' />
 
             <div className='container-fluid'>
 
                 {/* Titulo */}
                 <div className='row mb-5'>
-                    <div className='col-10 col-lg-8 m-auto'> 
+                    <div className='col-10 col-lg-8 m-auto'>
                         <h2 className=' fw-bold display-6 textsty1'>
                             Sustancias prohibidas en los deportes y el riesgo de contaminación en los suplementos.
                         </h2>
@@ -31,16 +31,16 @@ function Articulo1(){
                         <div className='row'>
                             <div className='col-12 col-lg-7 psty'>
                                 <p className='psty'>
-                                    En el mundo de los suplementos deportivos existen ciertos riesgos y prohibiciones 
-                                    que debemos considerar para poder suplementarnos de forma segura. 
+                                    En el mundo de los suplementos deportivos existen ciertos riesgos y prohibiciones
+                                    que debemos considerar para poder suplementarnos de forma segura.
                                 </p>
                                 <p className='psty'>
                                     Principalmente, debemos considerar que los suplementos que adquirimos no siempre
-                                    pueden ser lo que esperamos, ya que pueden estar mal etiquetados o contaminados con 
-                                    sustancias ilícitas. En el mundo, pesar de que existen organismos que se encargan de 
-                                    regular estos aspectos, la realidad es que los suplementos dietéticos, a diferencia 
-                                    de medicamentos y drogas, tienen una regulación y control menos estricto para su 
-                                    comercialización, terminando por definirse según la regulación establecida de cada país. 
+                                    pueden ser lo que esperamos, ya que pueden estar mal etiquetados o contaminados con
+                                    sustancias ilícitas. En el mundo, pesar de que existen organismos que se encargan de
+                                    regular estos aspectos, la realidad es que los suplementos dietéticos, a diferencia
+                                    de medicamentos y drogas, tienen una regulación y control menos estricto para su
+                                    comercialización, terminando por definirse según la regulación establecida de cada país.
                                 </p>
                             </div>
                             <div className='col-12 col-lg-5 d-flex justify-content-end'>
@@ -57,23 +57,23 @@ function Articulo1(){
                             Sustancias prohibidas
                         </h4>
                         <p className='psty'>
-                            Son aquellas sustancias ergogénicas prohibidas en los deportes, y que pueden 
-                            arrojar un doping positivo, dejando al deportista fuera de competencia. 
+                            Son aquellas sustancias ergogénicas prohibidas en los deportes, y que pueden
+                            arrojar un doping positivo, dejando al deportista fuera de competencia.
                         </p>
                         <p className='bg-quaternary rounded text-primary p-4 psty'>
-                            Las sustancias prohibidas están definidas como tal debido a que representar 
+                            Las sustancias prohibidas están definidas como tal debido a que representar
                             un riesgo para la salud, o violan el espíritu deportivo, el cual es definido por
-                             la WADA como  "la búsqueda por medios éticos de la excelencia humana a través del 
-                             perfeccionamiento del talento natural de cada deportista".
+                            la WADA como  "la búsqueda por medios éticos de la excelencia humana a través del
+                            perfeccionamiento del talento natural de cada deportista".
                         </p>
                         <p className='psty'>
-                            El uso de sustancias y suplementos está regulado por organismos internacionales 
-                            como el Comité Olímpico Internacional (COI) y la Agencia Mundial Antidopaje (WADA). 
-                            La WADA establece en el Código Mundial Antidopaje las políticas antidopaje junto con 
-                            la Lista anual de las sustancias prohibidas en el deporte, en la cual encontramos las 
+                            El uso de sustancias y suplementos está regulado por organismos internacionales
+                            como el Comité Olímpico Internacional (COI) y la Agencia Mundial Antidopaje (WADA).
+                            La WADA establece en el Código Mundial Antidopaje las políticas antidopaje junto con
+                            la Lista anual de las sustancias prohibidas en el deporte, en la cual encontramos las
                             siguientes sustancias:
                         </p>
-                      
+
                         <ol className='psty'><b>Sustancias prohibidas en todo momento:</b>
                             <li>
                                 Agentes anabolizantes (esteroides anabólicos androgénicos y otros agentes anabolizantes)
@@ -89,15 +89,15 @@ function Articulo1(){
                             <li>
                                 Moduladores hormonales y metabólicos (inhibidores de la aromatasa,
                                 sustancias anti-estrogenicas y moduladores selectivos de los receptores
-                                de estrógeno (SERMS), moduladores metabólicos, agentes que previenen la 
+                                de estrógeno (SERMS), moduladores metabólicos, agentes que previenen la
                                 activación del receptor IIB de la activina).
                             </li>
                             <li>
                                 Diuréticos y agentes enmascarantes.
                             </li>
                         </ol>
-                        
-                       
+
+
                         <ol className='psty'><b>Sustancias prohibidas en competición:</b>
                             <li>
                                 Estimulantes.
@@ -112,42 +112,42 @@ function Articulo1(){
                                 Glucocorticoides.
                             </li>
                         </ol>
-                        
+
                         <h4 className='mt-5 textsty1'>
                             Contaminación en suplementos deportivos
                         </h4>
                         <p className='psty'>
                             La contaminación de suplementos deportivos puede causar varios riesgos para la salud,
                             así como la posibilidad de resultar positivo en las pruebas antidoping debido a la presencia
-                             de sustancias prohibidas en los suplementos deportivos, lo que implicaría una suspensión 
-                             temporal o definitiva en el ámbito competitivo. 
+                            de sustancias prohibidas en los suplementos deportivos, lo que implicaría una suspensión
+                            temporal o definitiva en el ámbito competitivo.
                         </p>
                         <p className='psty'>
                             En 2007 en el Reino Unido, el HFL Sport Science (un laboratorio especializado de la
-                            Agencia Mundial Antidopaje), analizó 58 suplementos comercializados en EE. UU, y en 
+                            Agencia Mundial Antidopaje), analizó 58 suplementos comercializados en EE. UU, y en
                             el estudio se observó que 25% de los suplementos estaban contaminados con esteroides
                             prohibidos y 11% estaban contaminados con estimulantes prohibido. En 2008, HFL continuó
                             con el análisis de 152 productos comercializados en Reino Unido y observó que más del
-                            10% estaba contaminado con esteroides y/o estimulantes. 
+                            10% estaba contaminado con esteroides y/o estimulantes.
                         </p>
                         <h4 className='mt-5 textsty1'>
                             Regulación de los suplementos en Chile
                         </h4>
                         <p className='psty'>
                             En nuestro país no se venden todos los suplementos que se comercializan en el
-                            exterior, debido a la los estándares establecidos por la reglamentación chilena 
+                            exterior, debido a la los estándares establecidos por la reglamentación chilena
                             que crean un filtro en el ingreso al país. En Chile es el ministerio de salud el
                             que determina los ingredientes permitidos en base al RSA. Mientras que son los SEREMIS
                             de salud los entes encargados en fiscalizar que se cumpla la normativa.
                         </p>
                         <p className='bg-quaternary rounded text-primary p-4 psty'>
                             <b>RSA articulo 535:</b> Los ingredientes dietarios para suplementos alimentarios
-                             deberán cumplir con la identidad y pureza indicada en las especificaciones 
-                             de calidad e inocuidad.
+                            deberán cumplir con la identidad y pureza indicada en las especificaciones
+                            de calidad e inocuidad.
                         </p>
                         <p className='bg-quaternary rounded text-primary p-4 psty'>
-                            <b>RSA articulo 539:</b> En ellos no se podrá incorporar, solos ni en asociación, 
-                            hormonas o compuestos con efecto anabolizante. Tampoco se les podrá incorporar 
+                            <b>RSA articulo 539:</b> En ellos no se podrá incorporar, solos ni en asociación,
+                            hormonas o compuestos con efecto anabolizante. Tampoco se les podrá incorporar
                             sustancias con acción estimulante sobre el sistema nervioso, salvo aquellas que
                             estén expresamente autorizadas y dentro de los límites permitidos para este tipo
                             de alimentos en este Reglamento.
@@ -158,39 +158,54 @@ function Articulo1(){
                         <p className='psty'>
                             Para asegurar la pureza y seguridad de los suplementos que consumimos, siempre es bueno tener en cuenta los siguientes puntos:
                         </p>
-             
+
                         <ul className='psty'>
                             <li>
-                            Buscar marcas y productos con experiencia y sellos de calidad nacional 
-                            e internacional: Algunos sellos de calidad son “Informed-Sport”, “Informed-Choice”,
-                            “BSCG (Banned Subtances Control Group)” o “Cologne List”. 
-                            <div className='row d-flex justify-content-around my-3'>
-                                <img className='col-3' src={Img1}></img>
-                                <img className='col-3' src={Img2}></img>
-                                <img className='col-3' src={Img3}></img>
-            
+                                Buscar marcas y productos con experiencia y sellos de calidad nacional
+                                e internacional: Algunos sellos de calidad son “Informed-Sport”, “Informed-Choice”,
+                                “BSCG (Banned Subtances Control Group)” o “Cologne List”.
+                                <div className='row d-flex justify-content-around my-3'>
+                                    <img className='col-3' src={Img1}></img>
+                                    <img className='col-3' src={Img2}></img>
+                                    <img className='col-3' src={Img3}></img>
 
-                            </div>
+
+                                </div>
                             </li>
                             <li>
-                            Usar productos y compuestos con respaldo científico: Generalmente los 
-                            suplementos de macronutrientes y micronutrientes de mayor pureza no presentan contaminantes.
+                                Usar productos y compuestos con respaldo científico: Generalmente los
+                                suplementos de macronutrientes y micronutrientes de mayor pureza no presentan contaminantes.
                             </li>
                             <li>
-                            Adquirir o comprar en lugares seguros.
+                                Adquirir o comprar en lugares seguros.
                             </li>
                         </ul>
-                    
-                        
+                    </div>
+                </div>
 
-
+                <div className='row'>
+                    <div className='col-10 col-lg-8 m-auto'>
+                        <p>
+                            <b>Bibliografía</b>
+                        </p>
+                        <ul>
+                            <li>
+                                Agencia Mundial Anti Dopaje (WADA) - Código mundial antidopaje. La lista de prohibiciones.
+                            </li>
+                            <li>
+                                Comisión Nacional Anti Dopaje - Suplementos y sus riesgos de contaminación.
+                            </li>
+                            <li>
+                                Reglamento Sanitario de los Alimentos (RSA).
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
             </div>
 
-            <div className='espacio1'/>
-            <Footer/>
+            <div className='espacio1' />
+            <Footer />
         </>
     )
 }
