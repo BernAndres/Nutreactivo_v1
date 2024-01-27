@@ -1,92 +1,83 @@
 import React from 'react';
 import '../App.css';
-import Manzana from '../imgs/img_icon1.png'
-import Online from '../imgs/img_icon2.png'
-import EvFisica from '../imgs/img_icon4.png'
-import Pesa from '../imgs/img_icon3.png'
+import Icon1 from '../imgs/img_icon1.png'
+import Icon2 from '../imgs/img_icon2.png'
+import Icon3 from '../imgs/img_icon3.png'
 import { NavLink } from "react-router-dom";
 
-function Servicios(){
-    return(
-        <div className='container-fluid mt-5'>
-            <div className='row '>
-                <div className='col-1'></div>
-                <div className='col-10 d-flex flex-column'>
+function Servicios() {
+    return (
+        <div className='container-fluid'>
+            <div className='row d-flex flex-column flex-md-row justify-content-center align-items-center'>
 
-                    {/* FILA 1 */}
-                    <div className='d-flex flex-column flex-lg-row align-items-center mb-5 justify-content-lg-evenly'>
-                        {/* Cuadro 1 */}
-                        <div className='col-12 col-lg-4 rounded mb-5 mb-lg-0 px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
-                            <div className=''>
-                                <div className='mb-2'><img  src={Manzana} alt="icon consulta nutricional" style={{height: '50px'}}></img></div>
-                                <h4 className='h3 fw-bold text-tertiary textsty1'>Consulta nutricional presencial</h4>
-                                <div className='mb-3 text-tertiary psty'>
-                                Dirigida a la mejora del rendimiento deportivo, composición corporal y estado de salud
-                                general. <b>Incluye evaluación física.</b>
-                                </div> 
-                                <NavLink to='/Asesoria-nutricional-presencial' className='psty'>Ver más</NavLink>
-                            </div>
-                            <div className=' d-flex justify-content-end w-100' style={{position: 'relative'}}>
-                                    <span className='valorsty psty'>25.000 clp</span>
-                            </div>
-                        </div> 
-
-                        {/* Cuadro 2 */}
-                        <div className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
-                            <div className=''>
-                                <div className='mb-2'><img  src={Online} alt="icon consulta nutricional online" style={{height: '50px'}}></img></div>
-                                <h4 className='h3 fw-bold text-tertiary textsty1'>Asesoría nutricional online</h4>
-                                <div className='mb-3 text-tertiary psty'>
-                                Dirigida a la mejora del rendimiento deportivo, composición corporal y estado de salud
-                                general.
-                                </div> 
-                                <NavLink to='/Asesoria-nutricional-online' className='psty'>Ver más</NavLink>
-                            </div>
-                            <div className='d-flex justify-content-end w-100' style={{position: 'relative'}}>
-                                    <span className='valorsty psty'>20.000 clp</span>
-                            </div>
-                        </div> 
-                    </div>
-
-
-                    {/* FILA 2 */}
-                    <div className='d-flex flex-column flex-lg-row align-items-center mb-5 justify-content-lg-evenly'>
-                        {/* Cuadro 1 */}
-                        <div className='col-12 col-lg-4 rounded mb-5 mb-lg-0 px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
-                            <div className=''>
-                                <div className='mb-2'><img  src={EvFisica} alt="icon evaluación física" style={{height: '50px'}}></img></div>
-                                <h4 className='h3 fw-bold text-tertiary textsty1'>Evaluación física</h4>
-                                <div className='mb-3 text-tertiary psty'>
-                                Determinación de la composición corporal, somatotipo,
-                                y otros indicadores de interés deportivo y de salud. Mediciones relizadas bajo estándares ISAK 1.
-                                </div> 
-                                <NavLink to='/Evaluacion-fisica' className='psty'>Ver más</NavLink>
-                            </div>
-                            <div className=' d-flex justify-content-end w-100' style={{position: 'relative'}}>
-                                    <span className='valorsty psty'>20.000 clp</span>
-                            </div>
-                        </div> 
-
-                        {/* Cuadro 2 */}
-                        <div className='col-12 col-lg-4 rounded px-4 py-4 bg-quaternary boxsty d-flex flex-column justify-content-between'>
-                            <div className=''>
-                                <div className='mb-2'><img  src={Pesa} alt="icon plan entrenamiento" style={{height: '50px'}}></img></div>
-                                <h4 className='h3 fw-bold text-tertiary textsty1'>Convenios</h4>
-                                <div className='mb-3 text-tertiary psty'>
-                                Convenios para centros deportivos que busquen o requieran incorporar
-                                servicios consulta y evaluación nutricional para sus usuarios.
-                                </div> 
-                                <NavLink to='/Convenios' className='psty'>Ver más</NavLink>
-                            </div>
-                            {/* <div className='d-flex justify-content-end w-100' style={{position: 'relative'}}>
-                                    <span className='valorsty psty'>-----</span>
-                            </div> */}
-                        </div> 
-                    </div>
-
+                {/* titulo */}
+                <div className=' col-10 col-lg-3 d-flex justify-content-start align-items-center  mb-3 mb-lg-0'>
+                    <h3 className='fw-bold display-3 text-start textsty1'>
+                        Servicios
+                    </h3>
                 </div>
-                <div className='col-1'></div>
+
+                {/* opciones */}
+                <div className=' col-10 col-lg-6 '>
+
+                    <NavLink to='/Asesoria-nutricional-presencial' style={{ textDecoration: 'none', color: 'black' }}
+                        className='col-12 d-flex flex-column  mb-5 pb-4 pt-3 boxServSty'>
+                        <div className='col-12 d-flex flex-column flex-md-row align-items-center justify-content-evenly'>
+                            <div className='col-10 col-md-5 d-flex flex-column align-items-lg-center flex-md-row'>
+                                <img src={Icon1} className=' mb-2 mb-md-0 me-3' style={{ width: '60px', height: '60px' }}></img>
+                                <h4 className='col-12 col-md-9 h4 mb-2 mb-md-0 fw-semibold textsty1'>Consulta nutricional presencial</h4>
+                            </div>
+                            <div className='col-10 col-md-6 boxServTextSty'>
+                                <p className='textsty1 col-12 mb-0'>
+                                    Atención presencial con nutricionista, incluye plan nutricional y evaluación física completa.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='' style={{ position: 'relative' }}>
+                            <div className='col-6 col-md-3 bg-primary rounded text-white d-flex justify-content-center py-1 psty'
+                                style={{ position: 'absolute', bottom: '-38px', left: '20px' }}>
+                                Valor: 30.000 clp
+                            </div>
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/Asesoria-nutricional-online' style={{ textDecoration: 'none', color: 'black' }}
+                        className='col-12 d-flex flex-column  mb-5 pb-4 pt-3 boxServSty'>
+                        <div className='col-12 d-flex flex-column flex-md-row align-items-center justify-content-evenly'>
+                            <div className='col-10 col-md-5 d-flex flex-column align-items-lg-center flex-md-row'>
+                                <img src={Icon2} className=' mb-2 mb-md-0 me-3' style={{ width: '60px', height: '60px' }}></img>
+                                <h4 className='col-12 col-md-9 h4 mb-2 mb-md-0 fw-semibold textsty1'>Consulta nutricional online</h4>
+                            </div>
+                            <div className='col-10 col-md-6 boxServTextSty'>
+                                <p className='textsty1 col-12 mb-0'>
+                                    Atención online con nutricionista, incluye plan nutricional. Sin evaluación física.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='' style={{ position: 'relative' }}>
+                            <div className='col-6 col-md-3 bg-primary rounded text-white d-flex justify-content-center py-1 psty'
+                                style={{ position: 'absolute', bottom: '-38px', left: '20px' }}>
+                                Valor: 22.000 clp
+                            </div>
+                        </div>
+                    </NavLink>
+
+                    <NavLink to='/Convenios' style={{ textDecoration: 'none', color: 'black' }}
+                        className='col-12 d-flex flex-column flex-md-row align-items-center justify-content-evenly pb-3 pt-3 boxServSty'>
+                        <div className='col-10 col-md-5 d-flex flex-column flex-md-row align-items-lg-center'>
+                            <img src={Icon3} className='mb-2 mb-md-0 me-3' style={{ width: '60px', height: '60px' }}></img>
+                            <h4 className='col-12 col-md-9 h4 mb-2 mb-md-0 fw-semibold textsty1'>Convenios</h4>
+                        </div>
+                        <div className='col-10 col-md-6 boxServTextSty'>
+                            <p className='textsty1 col-12 mb-0'>
+                                Modalidades de convenios para centros deportivos y de salud que busquen
+                                incorporar servicios de nutricionista.
+                            </p>
+                        </div>
+                    </NavLink>
+                </div>
             </div>
+
         </div>
     )
 }

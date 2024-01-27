@@ -6,28 +6,31 @@ import Navbar2 from '../componentes/Navbar2';
 import FrontPage from '../componentes/FrontPage';
 import Servicios from '../componentes/IniServicios';
 import IniConsulta from '../componentes/IniConsulta';
+import IniCarrusel from '../componentes/IniCarrusel';
 import IniCoverturas from '../componentes/IniCoverturas';
 import IniNutris from '../componentes/IniNutris';
 import Footer from '../componentes/Footer';
 
 function Inicio() {
-    return(
+    return (
         <>
-            <Bar/>
-            <Navbar/>
-            <Bar2/>
-            <Navbar2/>
+            <Bar />
+            <Navbar />
+            <Bar2 />
+            <Navbar2 />
             <FrontPage />
-            <div style={{height: '150px',}}/>
-            <Servicios/>
-            <div style={{height: '100px'}}/>
-            <IniConsulta/>
-            <div style={{height: '100px'}}/>
-            <IniCoverturas/>
-            <div style={{height: '100px'}}/>
-            <IniNutris/>
-            <div style={{height: '100px'}}/>
-            <Footer/>
+            <div style={{ height: '150px', }} />
+            <Servicios />
+            <div style={{ height: '150px' }} />
+            <IniConsulta />
+            <div style={{ height: '50px' }} />
+            <IniCarrusel />
+            <div style={{ height: '150px' }} />
+            <IniNutris />
+            <div style={{ height: '150px' }} />
+            <IniCoverturas />
+            <div style={{ height: '200px' }} />
+            <Footer />
         </>
     )
 }

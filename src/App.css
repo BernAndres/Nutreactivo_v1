@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
 /* GENERAL */
+
+.redondearSty {
+  border-radius: 30px;
+}
+
+.dispNoneSty {
+  display: block;
+}
+
+@media only screen and (max-width: 600px) {
+  .dispNoneSty {
+    display: none;
+  }
+}
+
 .textsty1 {
   font-family: 'Poppins', sans-serif;
 }
@@ -80,7 +95,7 @@
 }
 
 .navbtn1sty {
-  background-color: #01FFA5;
+  background-color: #00EDC2;
 }
 
 .navlogosty {
@@ -114,12 +129,12 @@
 }
 
 .navtextsty:hover {
-  color: #01FFA5;
+  color: #00EDC2;
   transition: 0.3s;
 }
 
 .navtextsty2:hover {
-  color: #01FFA5;
+  color: #00EDC2;
   transition: 0.3s;
 }
 
@@ -147,7 +162,7 @@
   }
 
   .navtextsty:hover {
-    color: #01FFA5;
+    color: #00EDC2;
   }
 
   .navtextsty2 {
@@ -155,7 +170,7 @@
   }
 
   .navtextsty2:hover {
-    color: #01FFA5;
+    color: #00EDC2;
   }
 
   .navtextstybtn {
@@ -208,17 +223,13 @@
 
 
 /* CAROUSEL */
-.carouselImgSty {
+.carrSty {
   width: 100%;
-  height: 100vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-radius: 30px;
 }
 
-@media only screen and (max-width: 992px) {
-  .carouselImgSty {
-    width: auto;
-    /* height: 100%;  */
-  }
-}
 
 /* SERVICIOS */
 .boxServSty {
@@ -233,17 +244,38 @@
   transition: 0.3s;
   cursor: pointer;
   /* background-color: #8A89E6; */
-  /* background-color: #01FFA5; */
+  /* background-color: #00EDC2; */
   /* background-color: #CFCCE9; */
 }
 
+.boxServTextSty {
+  background-color: #00EDC2;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .boxServTextSty {
+    background-color: white;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
 /* INICIO CONSULTA NUTRICIONAL */
-.boxConsSty {
-  box-shadow: 0px 0px 7px black;
-  border-radius: 0px 15px 15px 0px;
-  background-color: #4E07E3;
-  padding-top: 50px;
-  padding-bottom: 50px;
+.iniBox1Sty {
+  border-radius: 30px;
+  width: 75%;
+  background-color: white;
+}
+
+.iniContSty {
+  border-radius: 30px;
 }
 
 .video2sty {
@@ -279,6 +311,12 @@
   box-shadow: 3px 3px 10px gray;
   transition: 0.3s;
   cursor: pointer;
+}
+
+.comillasSty {
+  font-size: 40px;
+  position: absolute;
+  top: -20px;
 }
 
 /* CUERPO */
@@ -335,6 +373,11 @@
   }
 }
 
+/* INDICADORES EVALUACIÓN FÍSICA */
+.boxIndicadorSty {
+  height: 280px;
+}
+
 .imgMedSty {
   box-shadow: 0px 0px 8px #888888;
   transition: 0.5s;
@@ -342,10 +385,21 @@
 
 .imgMedSty:hover {
   box-shadow: 0px 0px 15px black;
-  opacity: 0.8;
   transition: 0.5s;
   cursor: pointer;
 }
+
+.indicadorSty {
+  position: absolute;
+  top: 0px;
+  transition: 0.5s;
+}
+
+.indicadorSty:hover {
+  opacity: 0;
+  transition: 0.5s;
+}
+
 
 .msjBoxSty {
   width: 75%;
@@ -354,13 +408,22 @@
 }
 
 @media only screen and (max-width: 992px) {
-  .msjBoxSty {
+  .boxIndicadorSty {}
+}
+
+@media only screen and (max-width: 768px) {
+  .boxIndicadorSty {}
+}
+
+@media only screen and (max-width: 600px) {
+  .boxIndicadorSty {
     width: 100%;
   }
 }
 
+
 .valorsty {
-  background-color: #01FFA5;
+  background-color: #00EDC2;
   padding: 8px 20px;
   font-size: 14px;
   font-weight: bold;
@@ -425,7 +488,7 @@
 
 .artboxsty {
   height: 50px;
-  background-color: #01FFA5;
+  background-color: #00EDC2;
   color: black;
   text-decoration: none;
   font-weight: bold;
