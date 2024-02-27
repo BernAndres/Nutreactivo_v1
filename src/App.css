@@ -3,7 +3,7 @@
 /* GENERAL */
 
 .redondearSty {
-  border-radius: 30px;
+  border-radius: 25px;
 }
 
 .dispNoneSty {
@@ -44,9 +44,40 @@
   cursor: pointer;
 }
 
+.sombra {
+  transition: 0.3s;
+}
+
+.sombra:hover {
+  box-shadow: 0px 0px 3px 3px rgba(0, 0, 0, 0.4);
+  transition: 0.3s;
+}
+
 @media only screen and (max-width: 992px) {
   .espacio1 {
     height: 150px;
+  }
+}
+
+.boxArticulos {
+  width: 30%;
+  height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #4E07E3;
+}
+
+@media only screen and (max-width: 992px) {
+  .boxArticulos {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .boxArticulos {
+    width: 100%;
   }
 }
 
@@ -144,7 +175,7 @@
   }
 
   .navbarsty2 {
-    background-color: black;
+    background-color: #4E07E3;
   }
 
   .navbtn1sty {
@@ -177,9 +208,18 @@
     color: white;
   }
 
-  .menusty {
+  .menusty1 {
     height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
+    /* height: auto; */
+    position: relative;
+    /* top: 50px; */
+    /* border-radius: 15px; */
+  }
+
+  .menusty2 {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.0);
     /* height: auto; */
     position: relative;
     /* top: 50px; */
@@ -523,4 +563,9 @@
   overflow: hidden;
   object-fit: cover;
   /* esta es la clave */
+}
+
+/* CALCULADORAS */
+.calcuSty1 {
+  border: 3px solid #4E07E3;
 }

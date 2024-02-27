@@ -24,7 +24,7 @@ function Navbar() {
 
         {/* MENÚ */}
         <div className="collapse navbar-collapse mt-lg-3" id="navbarNavDropdown">
-          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5 menusty">
+          <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5 menusty1">
             {/* 1 - Asesorias */}
 
             <li className="nav-item dropdown my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded navtextsty">
@@ -32,28 +32,22 @@ function Navbar() {
                 Servicios
               </span>
               <ul className="dropdown-menu mx-0 my-0 px-0 py-0">
-                <li><NavLink className="dropdown-item" to="/Servicios">Servicios</NavLink></li>
+                <li><NavLink className="dropdown-item" to="/Servicios">Servicios y valores</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-presencial">Consulta nutricional presencial</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/Asesoria-nutricional-online">Consulta nutricional online</NavLink></li>
                 <li><NavLink className="dropdown-item" to="/Convenios">Convenios</NavLink></li>
               </ul>
             </li>
 
-            {/* <div className="dropdown">
-              <button className="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown button
-              </button>
-              <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Action</a></li>
-                <li><a className="dropdown-item" href="#">Another action</a></li>
-                <li><a className="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </div> */}
-
             {/* 2 - Nutricionistas */}
             <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
               <NavLink className="navtextsty" to="/Nutricionistas">
                 Nutricionistas
+              </NavLink>
+            </li>
+            <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
+              <NavLink className="navtextsty" to="/Antropometria">
+                Antropometría
               </NavLink>
             </li>
             <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
