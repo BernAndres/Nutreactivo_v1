@@ -19,7 +19,7 @@ function IniCarrusel() {
                                         ¿Cómo identificar mis objetivos deportivos?
                                     </p>
                                     <NavLink to='/Objetivos-deportivos'
-                                        className='h5 col-10 col-md-8 col-lg-5 px-5 py-2 bg-secondary rounded'
+                                        className='h5 col-10 col-md-8 col-lg-5 text-center py-2 bg-secondary rounded'
                                         style={{ border: 'none', textDecoration: 'none', text: 'primary' }}>
                                         Saber más
                                     </NavLink>

@@ -27,7 +27,7 @@ function Navbar() {
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0 me-lg-5 menusty1">
             {/* 1 - Asesorias */}
 
-            <li className="nav-item dropdown my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded navtextsty">
+            <li className="nav-item dropdown my-1 my-lg-0 px-5 px-xl-4 py-5 py-lg-1 text-center rounded navtextsty">
               <span className="dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Servicios
               </span>
@@ -40,17 +40,17 @@ function Navbar() {
             </li>
 
             {/* 2 - Nutricionistas */}
-            <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
+            <li className="nav-item my-1 my-lg-0 px-5 px-xl-4 py-5 py-lg-1 text-center rounded">
               <NavLink className="navtextsty" to="/Nutricionistas">
                 Nutricionistas
               </NavLink>
             </li>
-            <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
+            <li className="nav-item my-1 my-lg-0 px-5 px-xl-4 py-5 py-lg-1 text-center rounded">
               <NavLink className="navtextsty" to="/Antropometria">
                 Antropometría
               </NavLink>
             </li>
-            <li className="nav-item my-1 my-lg-0 px-5 px-xl-5 py-5 py-lg-1 text-center rounded">
+            <li className="nav-item my-1 my-lg-0 px-5 px-xl-4 py-5 py-lg-1 text-center rounded">
               <NavLink className="navtextsty" to="/Articulos">
                 Articulos
               </NavLink>
