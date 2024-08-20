@@ -12,7 +12,7 @@ function IntroConsulta() {
                     </iframe>
                 </div>
                 <div className='col-12 col-md-6 col-lg-7 d-flex align-items-center '>
-                    <p className='h5' style={{ textAlign: 'justify' }}>
+                    <p className='psty' style={{ textAlign: 'justify' }}>
                         La consulta nutricional tiene como fin establecer las estrategias nutricionales
                         más adecuadas para el logro de los objetivos de cada persona, ya sean estos orientados
                         al rendimiento deportivo, composición corporal o salud.

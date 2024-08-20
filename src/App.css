@@ -53,9 +53,40 @@
   transition: 0.3s;
 }
 
+.sombra2 {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.sombra2:hover {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
+  transition: 0.3s;
+}
+
+.showLg {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.hideLg {
+  display: none;
+}
+
 @media only screen and (max-width: 992px) {
   .espacio1 {
     height: 150px;
+  }
+
+  .showLg {
+    display: none;
+  }
+
+  .hideLg {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
   }
 }
 
@@ -268,43 +299,6 @@
   padding-top: 40px;
   padding-bottom: 40px;
   border-radius: 30px;
-}
-
-
-/* SERVICIOS */
-.boxServSty {
-  border: 3px solid #4E07E3;
-  border-radius: 10px;
-  height: auto;
-  transition: 0.3s;
-}
-
-.boxServSty:hover {
-  box-shadow: 3px 3px 10px gray;
-  transition: 0.3s;
-  cursor: pointer;
-  /* background-color: #8A89E6; */
-  /* background-color: #00EDC2; */
-  /* background-color: #CFCCE9; */
-}
-
-.boxServTextSty {
-  background-color: #00EDC2;
-  border-radius: 10px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-@media only screen and (max-width: 600px) {
-  .boxServTextSty {
-    background-color: white;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
 }
 
 /* INICIO CONSULTA NUTRICIONAL */

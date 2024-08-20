@@ -21,13 +21,13 @@ function Inicio() {
             <FrontPage />
             <div style={{ height: '150px', }} />
             <Servicios />
-            <div style={{ height: '150px' }} />
+            <div style={{ height: '100px' }} />
             <IniConsulta />
-            <div style={{ height: '50px' }} />
+            <div style={{ height: '30px' }} />
             <IniCarrusel />
-            <div style={{ height: '150px' }} />
+            <div style={{ height: '120px' }} />
             <IniNutris />
-            <div style={{ height: '150px' }} />
+            <div style={{ height: '120px' }} />
             <IniCoverturas />
             <div style={{ height: '200px' }} />
             <Footer />

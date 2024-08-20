@@ -28,6 +28,14 @@ import Calculadora from './Paginas/Pg_calculadora';
 import CalculoPredictores from './Paginas/Pg_calculoPredictores';
 import CalculoIMC from './Paginas/Pg_calculoIMC';
 import ObjDep from './Paginas/Pg_objetivosDeportivos';
+import Recursos from './Paginas/Pg_recursos';
+import RecursoRendimiento1 from './Paginas/Pg_recurso_rendimiento1';
+import RecursoRendimiento2 from './Paginas/Pg_recurso_rendimiento2';
+import RecursoPerdidaGrasa from './Paginas/Pg_recurso_perdida_grasa';
+import RecursoPorciones from './Paginas/Pg_recurso_porciones';
+import ObjGrasa from './Paginas/Pg_obj_grasa';
+import ObjMusculo from './Paginas/Pg_obj_musculo';
+import ObjRendimiento from './Paginas/Pg_obj_rendimiento';
 import Error404 from './Paginas/Pg_error404';
 
 const router = createHashRouter([
@@ -43,6 +51,9 @@ const router = createHashRouter([
   { path: 'Agendar', element: <Agendar />, },
   { path: 'Calculadora', element: <Calculadora />, },
   { path: 'Objetivos-deportivos', element: <ObjDep />, },
+  { path: 'Disminuir-grasa-corporal', element: <ObjGrasa />, },
+  { path: 'Aumentar-masa-muscular', element: <ObjMusculo />, },
+  { path: 'Mejorar-rendimiento', element: <ObjRendimiento />, },
   { path: 'Instructivo-mediciones', element: <InstPDF />, },
   { path: 'Articulos/Articulo-1', element: <Articulo1 />, },
   { path: 'Articulos/Suplementos-indicados-para-cada-deporte', element: <ArticuloSuplementos />, },
@@ -54,6 +65,12 @@ const router = createHashRouter([
   { path: 'Articulos/Alimentos-deportivos', element: <Articulo4 />, },
   { path: 'Antropometria/Predictores-talento-deportivo', element: <CalculoPredictores />, },
   { path: 'Antropometria/Indicadores-generales-salud', element: <CalculoIMC />, },
+  { path: 'Recursos', element: <Recursos />, },
+  { path: 'Recursos/Rendimiento-deportes-corta-duracion-y-alta-intensidad', element: <RecursoRendimiento1 />, },
+  { path: 'Recursos/Rendimiento-deportes-mediana-duracion', element: <RecursoRendimiento2 />, },
+  { path: 'Recursos/Trabajando-perdida-de-grasa-corporal', element: <RecursoPerdidaGrasa />, },
+  { path: 'Recursos/Porciones-de-alimentos', element: <RecursoPorciones />, },
+  { path: 'Recursos/Porciones-de-alimentos', element: <RecursoPorciones />, },
   { path: '*', element: <Error404 />, },
 ]);
 

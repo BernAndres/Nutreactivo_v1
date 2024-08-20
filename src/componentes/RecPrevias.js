@@ -7,9 +7,10 @@ function RecPrevias() {
             {/* RECOMENDACIONES PRE CONSULTA */}
             <div className='row d-flex'>
                 <div className='col-10 col-lg-9 m-auto d-flex flex-column'>
-                    <h4 className='h2 mb-4 display-6 fw-bold textsty1'>Recomendaciones previas a la medición</h4>
+                    <h4 className='textsty1 text-primary'>Recomendaciones previas a la medición:</h4>
 
                     <div className='bg-quaternary px-2 px-lg-5 py-3 rounded psty'>
+                        {/* <h4 className='textsty1 text-primary'>Recomendaciones previas a la medición:</h4> */}
                         <div className='d-flex align-items-center mb-3 mb-lg-1'>
                             <div className='bg-secondary px-3 py-2 rounded-circle fw-bold h5 me-2 mx-0 my-0'>1</div>
                             <p className='mx-0 my-0 pe-0 pe-lg-5'>

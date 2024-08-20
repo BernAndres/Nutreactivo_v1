@@ -5,18 +5,10 @@ import Correo from '../imgs/img_correo_icon.png'
 function Footer() {
     return (
         <div className="containter-fluid py-5 mt-5 bg-primary">
-            <div className="row py-5 mx-0 my-0 d-flex">
-                <div className="col-10 m-auto">
-                    {/* <div className="border-bottom border-white mb-3"></div> */}
-                    <div className="d-flex">
-                        <div className="col-6 col-lg-3 text-start text-white">
-                            Contacto: <br />
-                            +56987307068 <br />
-                            nutreactivo@gmail.com
-                        </div>
-                        <div className="col-0 col-lg-6"></div>
-                    </div>
-                    {/* <div className="border-bottom border-white mt-3"></div> */}
+            <div className="col-12 py-5">
+                <div className='col-10 col-md-9 col-lg-8 m-auto d-flex flex-column align-items-center' style={{ position: 'relative' }}>
+                    <div className='w-100' style={{ height: '1px', backgroundColor: 'white' }}></div>
+                    <p className='col-7 col-sm-5 col-md-4 col-lg-3 text-center bg-primary h4 text-white' style={{ position: 'absolute', top: '-15px' }}>Nutreactivo®</p>
                 </div>
             </div>
 

@@ -13,7 +13,7 @@ function Navbar() {
         {/* LOGO */}
 
         <NavLink className="navbar-brand px-0 px-sm-5 py-2 mt-lg-3 ms-3 ms-md-5" to="/">
-          <span className='h2 text-white fw-bold textsty1'>NUTREACTIVO</span>
+          <span className='h2 text-white fw-bold textsty1'>NUTREACTIVO®</span>
         </NavLink>
 
         {/* BOTÓN MENÚ */}

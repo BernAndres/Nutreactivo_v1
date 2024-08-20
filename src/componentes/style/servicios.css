@@ -1,0 +1,24 @@
+.boxServSty {
+    border: 3px solid #4E07E3;
+    border-radius: 10px;
+    height: 320px;
+    transition: 0.3s;
+}
+
+.boxServSty:hover {
+    box-shadow: 3px 3px 10px gray;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 992px) {
+    .boxServSty {
+        height: 400px;
+    }
+}
+
+@media only screen and (max-width: 776px) {
+    .boxServSty {
+        height: 320px;
+    }
+}

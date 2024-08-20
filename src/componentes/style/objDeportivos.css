@@ -1,0 +1,47 @@
+.objetivosSty {
+    transition: 0.3s;
+}
+
+.objetivosSty:hover {
+    cursor: pointer;
+    width: 40%;
+    transition: 0.3s;
+}
+
+.imgObjetivosSty {
+    width: 25%;
+    margin-right: 5px;
+}
+
+.textObjetivosSty {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    color: white;
+}
+
+@media only screen and (max-width: 776px) {
+    .imgObjetivosSty {
+        width: 50%;
+        margin-right: 0px;
+    }
+
+    .textObjetivosSty {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .imgObjetivosSty {
+        width: 80%;
+        margin-right: 0px;
+    }
+
+    .textObjetivosSty {
+        font-size: 14px;
+        font-weight: bold;
+        text-align: center;
+    }
+}

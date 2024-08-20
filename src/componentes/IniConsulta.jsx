@@ -1,6 +1,7 @@
 import '../App.css';
 import IntroConsulta from '../componentes/IntroConsulta';
 import IntroEvFisica from '../componentes/IntroEvFisica';
+import ObjDeportivos from './objDeportivos';
 import { NavLink } from "react-router-dom";
 
 
@@ -11,6 +12,7 @@ function IniConsulta() {
             <div className='row d-flex flex-column'>
                 <h3 className='textsty1 mx-auto mb-5 col-10 col-lg-9 display-4 fw-bold'>Consulta nutricional</h3>
                 <IntroConsulta />
+                <ObjDeportivos />
                 <IntroEvFisica />
             </div>
         </div>

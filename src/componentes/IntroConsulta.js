@@ -4,7 +4,7 @@ import '../App.css';
 
 function IntroConsulta() {
     return (
-        <div className='container-fluid mb-5'>
+        <div className='container-fluid mb-3' id="inicio1">
             <div className='col-10 col-lg-9 d-flex flex-column-reverse flex-md-row  justify-content-between m-auto mb-5'>
                 <div className='col-12 col-md-5 col-lg-4 mb-3 mb-md-0 d-flex justify-content-center '>
                     <iframe height="250px" className='col-12 redondearSty'

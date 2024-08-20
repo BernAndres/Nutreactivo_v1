@@ -8,6 +8,7 @@ import IntroConsultaOnline from '../componentes/IntroConsultaOnline';
 import RecPreviasOnline from '../componentes/RecPreviasOnline';
 import IndicadoresOnline from '../componentes/IndicadoresOnline';
 import PlanNut from '../componentes/PlanNutDep';
+import Objetivos from '../componentes/objDeportivos';
 import Img1 from '../imgs/img_comida_2.png';
 import Img2 from '../imgs/img_medicion_6.jpg';
 import Img3 from '../imgs/img_imc_2.png';
@@ -25,9 +26,11 @@ function AsesoriaNutOnline() {
                 <h3 className='h2 col-10 col-lg-9 fw-bold display-4 mb-5 textsty1 m-auto'>Consulta Nutricional Online</h3>
             </div>
             <IntroConsultaOnline />
-            <div style={{ height: '50px' }} />
-            <RecPreviasOnline />
-            <div style={{ height: '50px' }} />
+            <div style={{ height: '20px' }} />
+            <Objetivos />
+            <div style={{ height: '40px' }} />
+            {/* <RecPreviasOnline />
+            <div style={{ height: '50px' }} /> */}
             <PlanNut />
             <div style={{ height: '50px' }} />
             {/* EVALUACIÓN FÍSICA */}
